@@ -1,0 +1,17 @@
+\appendix
+\chapter*{Appendix B : Useful identity}\label{appen_b}
+The  Wilson line 
+\begin{equation}
+S_{\bar n}(x)=\mbox{\bf P}\exp \left( ig\int_{-\infty}^0 \,du \,\bar n\cdot A_s(x+u\bar n) \right)\,,
+\end{equation}
+obeys the equation $i\bar n\cdot D\,S_{\bar n}(x)=0$, where $iD^\mu=i\partial^\mu+gA^\mu$, see, e.g., \cite{Becher:2014oda} for a derivation.  Thus $i\bar n\cdot\partial S_{\bar n}(x)=-g\bar n\cdot A(x)S_{\bar n}(x)$. Taking the Hermitian conjugate of this identity gives $i\bar n\cdot\partial S^\dagger_{\bar n}(x)=S^\dagger_{\bar n}(x)g\bar n\cdot A(x)$. Consider now $i\bar n\cdot \partial \left(S_{\bar n}^\dagger(x) O(x) S_{\bar n}(x) \right)$, where $O(x)$ is an operator. Using the identities above we have 
+\begin{eqnarray}
+&&i\bar n\cdot \partial \left(S_{\bar n}^\dagger(x) O(x) S_{\bar n}(x) \right)=\nonumber\\
+&=&\big(i\bar n\cdot \partial S_{\bar n}^\dagger(x)\big)O(x) S_{\bar n}(x) +S_{\bar n}^\dagger(x)\big(i\bar n\cdot \partial\, O(x)\big)S_{\bar n}(x) +S_{\bar n}^\dagger(x)O(x) \big(i\bar n\cdot \partial S_{\bar n}(x) \big)\nonumber\\
+&=&S^\dagger_{\bar n}(x)g\bar n\cdot A(x)O(x) S_{\bar n}(x) +S_{\bar n}^\dagger(x)\big(i\bar n\cdot \partial\, O(x)\big)S_{\bar n}(x)-S_{\bar n}^\dagger(x) O(x) g\bar n\cdot A(x)S_{\bar n}(x)=\nonumber\\
+&=& S^\dagger_{\bar n}(x)[g\bar n\cdot A(x),O(x)] S_{\bar n}(x)+S_{\bar n}^\dagger(x)\big[i\bar n\cdot \partial ,O(x)\big]S_{\bar n}(x)=S_{\bar n}^\dagger(x)\big[i\bar n\cdot D,O(x)\big]S_{\bar n}(x).
+\end{eqnarray}
+In the last line we have used the identity $\big[i\bar n\cdot \partial ,O(x)\big]f(x)=\big(i\bar n\cdot \partial\, O(x)\big)f(x)$ for an arbitrary function $f(x)$. Thus we have the identity 
+ \begin{equation}
+ i\bar n\cdot \partial \left(S_{\bar n}^\dagger(x) O(x) S_{\bar n}(x) \right)=S_{\bar n}^\dagger(x)\big[i\bar n\cdot D,O(x)\big]S_{\bar n}(x).
+ \end{equation}

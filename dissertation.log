@@ -1,0 +1,2227 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.5)  4 AUG 2020 15:39
+entering extended mode
+**./dissertation.tex
+(dissertation.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-03>
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\epsfig.st
+y"
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+\epsfxsize=\dimen137
+\epsfysize=\dimen138
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.
+sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\helvet.sty"
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
+sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/appendix\appendix.
+sty"
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count176
+\c@@ppsavesec=\count177
+\c@@ppsaveapp=\count178
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
+sty"
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.
+sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexc
+mds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infwar
+err.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetk
+eys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys\kvd
+efinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape\pdfesc
+ape.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hycolor.st
+y"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\letltx
+macro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxhook.st
+y"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoption
+s.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen139
+\Hy@linkcounter=\count179
+\Hy@pagecounter=\count180
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
+f"
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\intcalc.
+sty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\etexcmd
+s.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count181
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count182
+ ("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen140
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bitset.st
+y"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc\bigin
+tcalc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count183
+\Field@Width=\dimen141
+\Fld@charsize=\dimen142
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\atbegsh
+i.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count184
+\c@Item=\count185
+\c@Hfootnote=\count186
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
+ef"
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\atveryen
+d.sty"
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count187
+\c@bookmark@seq@number=\count188
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilecheck\rer
+unfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecounter\un
+iquecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip58
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty
+"
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/carlisle\slashed.s
+ty"
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
+y"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen143
+))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen144
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count189
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count190
+\leftroot@=\count191
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count192
+\DOTSCASE@=\count193
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen145
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count194
+\c@MaxMatrixCols=\count195
+\dotsspace@=\muskip17
+\c@parentequation=\count196
+\dspbrk@lvl=\count197
+\tag@help=\toks17
+\row@=\count198
+\column@=\count199
+\maxfields@=\count266
+\andhelp@=\toks18
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
+\@envbody=\toks19
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\hhline.sty"
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
+pdf.sty"
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grfext\grfext.sty"
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
+pdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.st
+y"
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.s
+ty"
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen152
+\captionmargin@=\dimen153
+\captionwidth=\dimen154
+\caption@tempdima=\dimen155
+\caption@indent=\dimen156
+\caption@parindent=\dimen157
+\caption@hangindent=\dimen158
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count267
+\c@continuedfloat=\count268
+Package caption Info: hyperref package is loaded.
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count269
+\calc@Bcount=\count270
+\calc@Adimen=\dimen159
+\calc@Bdimen=\dimen160
+\calc@Askip=\skip62
+\calc@Bskip=\skip63
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count271
+\calc@Cskip=\skip64
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tabularx.sty
+"
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ ("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen161
+\ar@mcellbox=\box47
+\extrarowheight=\dimen162
+\NC@list=\toks21
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box48
+)
+\TX@col@width=\dimen163
+\TX@old@table=\dimen164
+\TX@old@col=\dimen165
+\TX@target=\dimen166
+\TX@delta=\dimen167
+\TX@cols=\count272
+\TX@ftn=\toks22
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\dvipsnam.
+def"
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec.
+sty"
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box49
+\beforetitleunit=\skip67
+\aftertitleunit=\skip68
+\ttl@plus=\dimen168
+\ttl@minus=\dimen169
+\ttl@toksa=\toks23
+\titlewidth=\dimen170
+\titlewidthlast=\dimen171
+\titlewidthfirst=\dimen172
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titletoc.
+sty"
+Package: titletoc 2019/10/16 v2.13 TOC entries
+\ttl@leftsep=\dimen173
+) ("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) ("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\bm.sty"
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+) ("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/feynmf\feynmf.st
+y"
+Package: feynmf 1996/12/02 v1.08 LaTeX/Metafont Feynman Diagram Package (ohl)
+\@outfmf=\write3
+\fmfbuf@=\toks24
+\c@fmfgraph=\count273
+\grep@infile=\read2
+\grep@outfile=\write4
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\euscript.
+sty"
+Package: euscript 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count274
+\float@exts=\toks25
+\float@box=\box50
+\@float@everytoks=\toks26
+\@floatcapt=\box51
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.
+sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen174
+\lightrulewidth=\dimen175
+\cmidrulewidth=\dimen176
+\belowrulesep=\dimen177
+\belowbottomsep=\dimen178
+\aboverulesep=\dimen179
+\abovetopsep=\dimen180
+\cmidrulesep=\dimen181
+\cmidrulekern=\dimen182
+\defaultaddspace=\dimen183
+\@cmidla=\count275
+\@cmidlb=\count276
+\@aboverulesep=\dimen184
+\@belowrulesep=\dimen185
+\@thisruleclass=\count277
+\@lastruleclass=\count278
+\@thisrulewidth=\dimen186
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verbatim.sty
+"
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks27
+\verbatim@line=\toks28
+\verbatim@in@stream=\read3
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow.
+sty"
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip69
+\multirow@cntb=\count279
+\multirow@dima=\skip70
+\bigstrutjot=\dimen187
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/blindtext\blindtex
+t.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count280
+\c@Blindtext=\count281
+\c@blind@countparstart=\count282
+\blind@countxx=\count283
+\blindtext@numBlindtext=\count284
+\blind@countyy=\count285
+\c@blindlist=\count286
+\c@blindlistlevel=\count287
+\c@blindlist@level=\count288
+\blind@listitem=\count289
+\c@blind@listcount=\count290
+\c@blind@levelcount=\count291
+\blind@mathformula=\count292
+\blind@Mathformula=\count293
+\c@blind@randomcount=\count294
+\c@blind@randommax=\count295
+\c@blind@pangramcount=\count296
+\c@blind@pangrammax=\count297
+) ("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tabu\tabu.sty"
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/varwidth\varwidth.
+sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box52
+\sift@deathcycles=\count298
+\@vwid@loff=\dimen188
+\@vwid@roff=\dimen189
+)
+\c@taburow=\count299
+\tabu@nbcols=\count300
+\tabu@cnt=\count301
+\tabu@Xcol=\count302
+\tabu@alloc=\count303
+\tabu@nested=\count304
+\tabu@target=\dimen190
+\tabu@spreadtarget=\dimen191
+\tabu@naturalX=\dimen192
+\tabucolX=\dimen193
+\tabu@Xsum=\dimen194
+\extrarowdepth=\dimen195
+\abovetabulinesep=\dimen196
+\belowtabulinesep=\dimen197
+\tabustrutrule=\dimen198
+\tabu@thebody=\toks29
+\tabu@footnotes=\toks30
+\tabu@box=\box53
+\tabu@arstrutbox=\box54
+\tabu@hleads=\box55
+\tabu@vleads=\box56
+\tabu@cellskip=\skip71
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tikz-feynman\tikz-
+feynman.sty"
+Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\
+tikz.sty"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+.sty"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfr
+cs.sty"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-common.tex"
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen199
+\pgfutil@tempdimb=\dimen256
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-common-lists.tex"))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-latex.def"
+\pgfutil@abb=\box57
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+frcs.code.tex"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision
+.tex")
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+core.sty"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
+fsys.sty"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys.code.tex"
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeys.code.tex"
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks34
+))
+\pgf@x=\dimen257
+\pgf@y=\dimen258
+\pgf@xa=\dimen259
+\pgf@ya=\dimen260
+\pgf@xb=\dimen261
+\pgf@yb=\dimen262
+\pgf@xc=\dimen263
+\pgf@yc=\dimen264
+\pgf@xd=\dimen265
+\pgf@yd=\dimen266
+\w@pgf@writea=\write5
+\r@pgf@reada=\read4
+\c@pgf@counta=\count305
+\c@pgf@countb=\count306
+\c@pgf@countc=\count307
+\c@pgf@countd=\count308
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
+\pgf@sys@id@count=\count309
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgf.cfg"
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count310
+\pgfsyssoftpath@bigbuffer@items=\count311
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcore.code.tex"
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+calc.code.tex"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+util.code.tex")
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+parser.code.tex"
+\pgfmath@dimen=\dimen267
+\pgfmath@count=\count312
+\pgfmath@box=\box58
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.code.tex"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.basic.code.tex")
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.trigonometric.code.tex")
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.random.code.tex")
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.comparison.code.tex")
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.base.code.tex")
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.round.code.tex")
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.misc.code.tex")
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.integerarithmetics.code.tex")))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+float.code.tex"
+\c@pgfmathroundto@lastzeros=\count313
+))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.
+code.tex")
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen268
+\pgf@picmaxx=\dimen269
+\pgf@picminy=\dimen270
+\pgf@picmaxy=\dimen271
+\pgf@pathminx=\dimen272
+\pgf@pathmaxx=\dimen273
+\pgf@pathminy=\dimen274
+\pgf@pathmaxy=\dimen275
+\pgf@xx=\dimen276
+\pgf@xy=\dimen277
+\pgf@yx=\dimen278
+\pgf@yy=\dimen279
+\pgf@zx=\dimen280
+\pgf@zy=\dimen281
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen282
+\pgf@path@lasty=\dimen283
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen284
+\pgf@shorten@start@additional=\dimen285
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count314
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen286
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen287
+\pgf@pt@y=\dimen288
+\pgf@pt@temp=\dimen289
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorequick.code.tex"
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen290
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen291
+\pgf@sys@shading@range@num=\count315
+\pgf@shadingcount=\count316
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box62
+))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box63
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen292
+\pgf@nodesepend=\dimen293
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgff
+or.sty"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfk
+eys.sty"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeys.code.tex"))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.s
+ty"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex"))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+ffor.code.tex"
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex")
+\pgffor@iter=\dimen294
+\pgffor@skip=\dimen295
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
+))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz\tikz.code.tex"
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count317
+\pgfplotmarksize=\dimen296
+)
+\tikz@lastx=\dimen297
+\tikz@lasty=\dimen298
+\tikz@lastxsaved=\dimen299
+\tikz@lastysaved=\dimen300
+\tikz@lastmovetox=\dimen301
+\tikz@lastmovetoy=\dimen302
+\tikzleveldistance=\dimen303
+\tikzsiblingdistance=\dimen304
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count318
+\tikznumberofchildren=\count319
+\tikznumberofcurrentchild=\count320
+\tikz@fig@count=\count321
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+odulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count322
+\pgfmatrixcurrentcolumn=\count323
+\pgf@matrix@numberofcolumns=\count324
+)
+\tikz@expandcount=\count325
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifluatex.s
+ty"
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgfopts\pgfopts.st
+y"
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks43
+\pgfopts@list@add@b@toks=\toks44
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tikz-feynman\tikzl
+ibraryfeynman.code.tex"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryarrows.meta.code.tex"
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen305
+\pgfarrowlength=\dimen306
+\pgfarrowwidth=\dimen307
+\pgfarrowlinewidth=\dimen308
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.code.tex"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen309
+\pgfdecoratedremainingdistance=\dimen310
+\pgfdecoratedinputsegmentcompleteddistance=\dimen311
+\pgfdecoratedinputsegmentremainingdistance=\dimen312
+\pgf@decorate@distancetomove=\dimen313
+\pgf@decorate@repeatstate=\count326
+\pgfdecorationsegmentamplitude=\dimen314
+\pgfdecorationsegmentlength=\dimen315
+)
+\tikz@lib@dec@box=\box68
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.markings.code.tex"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/de
+corations\pgflibrarydecorations.markings.code.tex"))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/de
+corations\pgflibrarydecorations.pathmorphing.code.tex"))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/de
+corations\pgflibrarydecorations.pathreplacing.code.tex"))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries/graphs\tikzlibrarygraphs.code.tex"
+File: tikzlibrarygraphs.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\tikz@lib@auto@number=\count327
+\tikz@qnode@count=\count328
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarypatterns.code.tex"
+File: tikzlibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibrarypatterns.code.tex"
+File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarypositioning.code.tex"
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryshapes.geometric.code.tex"
+File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
+apes\pgflibraryshapes.geometric.code.tex"
+File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tikz-feynman\tikzf
+eynman.keys.code.tex")))
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/simplewick\simplew
+ick.sty"
+Package: simplewick 2007/11/23 v1.2a
+
+Package: simplewick v1.2a (2007/11/23)
+\swb@xone=\box69
+\swb@xtwo=\box70
+\swb@xthree=\box71
+\swb@xfour=\box72
+\swdimen@ne=\dimen316
+\swdimentw@=\dimen317
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/apptools\apptools.
+sty"
+Package: apptools 2012/11/28 v1.0 Tools for customizing appendices
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count329
+\sf@farskip=\skip72
+\sf@captopadj=\dimen318
+\sf@capskip=\skip73
+\sf@nearskip=\skip74
+\c@subfigure=\count330
+\c@subfigure@save=\count331
+\c@lofdepth=\count332
+\c@subtable=\count333
+\c@subtable@save=\count334
+\c@lotdepth=\count335
+\sf@top=\skip75
+\sf@bottom=\skip76
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fixmetodonotes\fix
+metodonotes.sty"
+Package: fixmetodonotes 2013/04/28 v0.2.2
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/transparent\transp
+arent.sty"
+Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
+
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ncctools\watermark
+.sty"
+Package: watermark 2004/12/09 v1.1 Watermarks (NCC)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fix-cm.sty"
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+)) ("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ulem\ulem.sty"
+\UL@box=\box73
+\UL@hyphenbox=\box74
+\UL@skip=\skip77
+\UL@hook=\toks45
+\UL@height=\dimen319
+\UL@pe=\count336
+\UL@pixel=\dimen320
+\ULC@box=\box75
+Package: ulem 2019/11/18
+\ULdepth=\dimen321
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocloft\tocloft.st
+y"
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip78
+\cftbeforetoctitleskip=\skip79
+\cftaftertoctitleskip=\skip80
+\cftbeforepartskip=\skip81
+\cftpartnumwidth=\skip82
+\cftpartindent=\skip83
+\cftbeforechapskip=\skip84
+\cftchapindent=\skip85
+\cftchapnumwidth=\skip86
+\cftbeforesecskip=\skip87
+\cftsecindent=\skip88
+\cftsecnumwidth=\skip89
+\cftbeforesubsecskip=\skip90
+\cftsubsecindent=\skip91
+\cftsubsecnumwidth=\skip92
+\cftbeforesubsubsecskip=\skip93
+\cftsubsubsecindent=\skip94
+\cftsubsubsecnumwidth=\skip95
+\cftbeforeparaskip=\skip96
+\cftparaindent=\skip97
+\cftparanumwidth=\skip98
+\cftbeforesubparaskip=\skip99
+\cftsubparaindent=\skip100
+\cftsubparanumwidth=\skip101
+\cftbeforeloftitleskip=\skip102
+\cftafterloftitleskip=\skip103
+\cftbeforefigskip=\skip104
+\cftfigindent=\skip105
+\cftfignumwidth=\skip106
+\cftbeforelottitleskip=\skip107
+\cftafterlottitleskip=\skip108
+\cftbeforetabskip=\skip109
+\cfttabindent=\skip110
+\cfttabnumwidth=\skip111
+\cftbeforesubfigskip=\skip112
+\cftsubfigindent=\skip113
+\cftsubfignumwidth=\skip114
+\cftbeforesubtabskip=\skip115
+\cftsubtabindent=\skip116
+\cftsubtabnumwidth=\skip117
+)
+\c@NOTES@note=\count337
+\cftbeforeNOTES@noteskip=\skip118
+\cftNOTES@noteindent=\skip119
+\cftNOTES@notenumwidth=\skip120
+\c@notesdepth=\count338
+\cftbeforenotestitleskip=\skip121
+\cftafternotestitleskip=\skip122
+)
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+23.
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1phv.fd"
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 21.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 24.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 27.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 47.
+
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
+d-pdfmode.def"
+File: l3backend-pdfmode.def 2020-02-23 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count339
+\l__pdf_internal_box=\box76
+) (dissertation.aux (title.aux) (acknowledgements.aux) (Chap1.aux) (Chap2.aux) 
+(Chap3.aux) (Chap4.aux) (Chap5.aux) (Chap6.aux) (Chap7.aux)
+(AppendixA.aux) (AppendixB.aux) (Bibliography.aux) (abstract.aux) (autobio.aux)
+)
+\openout1 = `dissertation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count340
+\scratchdimen=\dimen322
+\scratchbox=\box77
+\nofMPsegments=\count341
+\nofMParguments=\count342
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen323
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
+\everyMPtoPDFconversion=\toks47
+)
+\AtBeginShipoutBox=\box78
+Package hyperref Info: Link coloring OFF on input line 158.
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
+ty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\refcount.
+sty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlestring\g
+ettitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count346
+)
+LaTeX Info: Redefining \ref on input line 158.
+LaTeX Info: Redefining \pageref on input line 158.
+LaTeX Info: Redefining \nameref on input line 158.
+ (dissertation.out) (dissertation.out)
+\@outlinefile=\write6
+\openout6 = `dissertation.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+ABD: EveryShipout initializing macros
+
+Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
+utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
+luatex=false on input line 158.
+
+
+Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[co
+mpat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on
+ input line 158.
+
+\openout2 = `title.aux'.
+
+(title.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+
+("C:\Users\ayesh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+{C:/Users/ayesh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+\openout2 = `acknowledgements.aux'.
+
+
+(acknowledgements.tex) [2
+
+
+] (dissertation.toc [3
+
+
+]
+Overfull \hbox (2.03766pt too wide) detected at line 122
+ \OT1/cmr/bx/n/12 103
+
+\hbox(7.73332+0.0)x18.21234 []
+
+
+Overfull \hbox (2.03766pt too wide) detected at line 131
+ \OT1/cmr/bx/n/12 114
+
+\hbox(7.73332+0.0)x18.21234 []
+
+
+Overfull \hbox (2.03766pt too wide) detected at line 139
+ \OT1/cmr/bx/n/12 119
+
+\hbox(7.73332+0.0)x18.21234 []
+
+
+Overfull \hbox (2.03766pt too wide) detected at line 141
+ \OT1/cmr/bx/n/12 121
+
+\hbox(7.73332+0.0)x18.21234 []
+
+
+Overfull \hbox (2.03766pt too wide) detected at line 142
+ \OT1/cmr/bx/n/12 122
+
+\hbox(7.73332+0.0)x18.21234 []
+
+
+Overfull \hbox (2.03766pt too wide) detected at line 143
+ \OT1/cmr/bx/n/12 133
+
+\hbox(7.73332+0.0)x18.21234 []
+
+
+Overfull \hbox (2.03766pt too wide) detected at line 144
+ \OT1/cmr/bx/n/12 135
+
+\hbox(7.73332+0.0)x18.21234 []
+
+)
+\tf@toc=\write7
+\openout7 = `dissertation.toc'.
+
+ [4] (dissertation.lof
+Overfull \hbox (15.01373pt too wide) detected at line 2
+\OT1/cmr/m/n/12 1.1 
+
+\hbox(7.73332+0.0)x0.0 []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 3
+\OT1/cmr/m/n/12 1.2 
+
+\hbox(7.73332+0.0)x0.0 []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 5
+\OT1/cmr/m/n/12 2.1 
+
+\hbox(7.73332+0.0)x0.0 []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 6
+\OT1/cmr/m/n/12 2.2 
+
+\hbox(7.73332+0.0)x0.0 []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 8
+\OT1/cmr/m/n/12 3.1 
+
+\hbox(7.73332+0.0)x0.0 []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 9
+\OT1/cmr/m/n/12 3.2 
+
+\hbox(7.73332+0.0)x0.0 []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 12
+\OT1/cmr/m/n/12 3.3 
+
+\hbox(7.73332+0.0)x0.0 []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 17
+\OT1/cmr/m/n/12 3.4 
+
+\hbox(7.73332+0.0)x0.0 []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 24
+\OT1/cmr/m/n/12 5.1 
+
+\hbox(7.73332+0.0)x0.0 []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 26
+\OT1/cmr/m/n/12 6.1 
+
+\hbox(7.73332+0.0)x0.0 []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 27
+\OT1/cmr/m/n/12 6.2 
+
+\hbox(7.73332+0.0)x0.0 []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 28
+\OT1/cmr/m/n/12 6.3 
+
+\hbox(7.73332+0.0)x0.0 []
+
+)
+\tf@lof=\write8
+\openout8 = `dissertation.lof'.
+
+ [5
+
+] [6] (dissertation.lot
+Overfull \hbox (15.01373pt too wide) detected at line 2
+\OT1/cmr/m/n/12 1.1 
+
+\hbox(7.73332+0.0)x0.0 []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 6
+\OT1/cmr/m/n/12 4.1 
+
+\hbox(7.73332+0.0)x0.0 []
+
+)
+\tf@lot=\write9
+\openout9 = `dissertation.lot'.
+
+ [7
+
+]
+\openout2 = `Chap1.aux'.
+
+ (Chap1.tex
+CHAPTER 1.
+<SM_sum.png, id=339, 1284.8pt x 1229.59375pt>
+File: SM_sum.png Graphic file (type png)
+<use SM_sum.png>
+Package pdftex.def Info: SM_sum.png  used on input line 14.
+(pdftex.def)             Requested size: 341.43306pt x 326.76013pt.
+[1
+
+
+] [2 <./SM_sum.png>] [3] [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+
+\hbox(0.0+0.0)x469.75499 []
+
+[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+<em_peng.JPG, id=524, 319.79475pt x 110.814pt>
+File: em_peng.JPG Graphic file (type jpg)
+<use em_peng.JPG>
+Package pdftex.def Info: em_peng.JPG  used on input line 286.
+(pdftex.def)             Requested size: 227.62204pt x 78.8763pt.
+ [17 <./em_peng.JPG>]
+[18]) [19]
+\openout2 = `Chap2.aux'.
+
+ (Chap2.tex
+CHAPTER 2.
+<fermi_int.JPG, id=565, 457.10776pt x 271.61475pt>
+File: fermi_int.JPG Graphic file (type jpg)
+<use fermi_int.JPG>
+Package pdftex.def Info: fermi_int.JPG  used on input line 12.
+(pdftex.def)             Requested size: 341.43306pt x 202.88579pt.
+[20
+
+
+
+] [21 <./fermi_int.JPG>] [22] [23] [24] [25] [26] [27] [28]
+<box diagram with two heavy quarks1.pdf, id=671, 519.8903pt x 235.26393pt>
+File: box diagram with two heavy quarks1.pdf Graphic file (type pdf)
+<use box diagram with two heavy quarks1.pdf>
+Package pdftex.def Info: box diagram with two heavy quarks1.pdf  used on input 
+line 135.
+(pdftex.def)             Requested size: 227.62204pt x 103.00668pt.
+ [29 <./box diagram with two heavy quarks1.pdf>] [30] [31] [32]) [33]
+\openout2 = `Chap3.aux'.
+
+ (Chap3.tex
+CHAPTER 3.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+[34
+
+
+
+] [35] [36] [37]
+<Factorization.JPG, id=795, 584.78474pt x 198.14024pt>
+File: Factorization.JPG Graphic file (type jpg)
+<use Factorization.JPG>
+Package pdftex.def Info: Factorization.JPG  used on input line 67.
+(pdftex.def)             Requested size: 426.79134pt x 144.6079pt.
+ [38 <./Factorization.JPG>] [39] [40] [41]
+<Q1Q7a.JPG, id=851, 283.0575pt x 169.23225pt>
+File: Q1Q7a.JPG Graphic file (type jpg)
+<use Q1Q7a.JPG>
+Package pdftex.def Info: Q1Q7a.JPG  used on input line 153.
+(pdftex.def)             Requested size: 216.81pt x 129.62752pt.
+<Q1Q7b.JPG, id=852, 283.65974pt x 161.403pt>
+File: Q1Q7b.JPG Graphic file (type jpg)
+<use Q1Q7b.JPG>
+Package pdftex.def Info: Q1Q7b.JPG  used on input line 154.
+(pdftex.def)             Requested size: 216.81pt x 123.36452pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--155
+
+
+\hbox(0.0+0.0)x469.75499 []
+
+[42 <./Q1Q7a.JPG> <./Q1Q7b.JPG>]
+Overfull \hbox (5.23293pt too wide) detected at line 176
+[]
+
+\hbox(16.79816+7.19931)x469.75499 []
+
+[43]
+<Q7Q8a.JPG, id=880, 354.72525pt x 187.902pt>
+File: Q7Q8a.JPG Graphic file (type jpg)
+<use Q7Q8a.JPG>
+Package pdftex.def Info: Q7Q8a.JPG  used on input line 202.
+(pdftex.def)             Requested size: 198.7425pt x 105.276pt.
+<Q7Q8b.JPG, id=881, 331.2375pt x 187.902pt>
+File: Q7Q8b.JPG Graphic file (type jpg)
+<use Q7Q8b.JPG>
+Package pdftex.def Info: Q7Q8b.JPG  used on input line 203.
+(pdftex.def)             Requested size: 198.7425pt x 112.7392pt.
+<Q7Q8c.JPG, id=882, 340.8735pt x 230.0595pt>
+File: Q7Q8c.JPG Graphic file (type jpg)
+<use Q7Q8c.JPG>
+Package pdftex.def Info: Q7Q8c.JPG  used on input line 204.
+(pdftex.def)             Requested size: 198.7425pt x 134.13667pt.
+<Q7Q8d.JPG, id=883, 329.43076pt x 226.446pt>
+File: Q7Q8d.JPG Graphic file (type jpg)
+<use Q7Q8d.JPG>
+Package pdftex.def Info: Q7Q8d.JPG  used on input line 205.
+(pdftex.def)             Requested size: 198.7425pt x 136.61497pt.
+ [44] [45 <./Q7Q8a.JPG> <./Q7Q8b.JPG> <./Q7Q8c.JPG> <./Q7Q8d.JPG>]
+<Q8Q8a.JPG, id=909, 332.442pt x 183.68625pt>
+File: Q8Q8a.JPG Graphic file (type jpg)
+<use Q8Q8a.JPG>
+Package pdftex.def Info: Q8Q8a.JPG  used on input line 237.
+(pdftex.def)             Requested size: 216.81pt x 119.79543pt.
+<Q8Q8b.JPG, id=910, 333.04425pt x 175.25475pt>
+File: Q8Q8b.JPG Graphic file (type jpg)
+<use Q8Q8b.JPG>
+Package pdftex.def Info: Q8Q8b.JPG  used on input line 238.
+(pdftex.def)             Requested size: 216.81pt x 114.09338pt.
+<Q8Q8c.JPG, id=911, 339.06676pt x 196.3335pt>
+File: Q8Q8c.JPG Graphic file (type jpg)
+<use Q8Q8c.JPG>
+Package pdftex.def Info: Q8Q8c.JPG  used on input line 239.
+(pdftex.def)             Requested size: 216.81pt x 125.54216pt.
+<Q8Q8d.JPG, id=912, 326.4195pt x 209.583pt>
+File: Q8Q8d.JPG Graphic file (type jpg)
+<use Q8Q8d.JPG>
+Package pdftex.def Info: Q8Q8d.JPG  used on input line 240.
+(pdftex.def)             Requested size: 216.81pt x 139.21103pt.
+ [46]
+Overfull \hbox (20.42453pt too wide) detected at line 257
+[]
+
+\hbox(16.79816+7.19931)x469.75499 []
+
+[47 <./Q8Q8a.JPG> <./Q8Q8b.JPG> <./Q8Q8c.JPG> <./Q8Q8d.JPG>] [48] [49] [50]
+[51] [52] [53] [54] [55]) [56]
+\openout2 = `Chap4.aux'.
+
+ (Chap4.tex
+CHAPTER 4.
+[57
+
+
+
+] [58]
+Overfull \hbox (8.53093pt too wide) in paragraph at lines 58--71
+ [] 
+
+\hbox(64.19365+58.19365)x469.75499 []
+
+[59] [60] [61] [62] [63] [64] [65]
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 164.
+
+
+Overfull \hbox (2.45259pt too wide) in paragraph at lines 164--165
+\OT1/cmr/m/n/12 non-zero lin-ear com-bi-na-tion: $\OML/cmm/m/it/12 a[] \OMS/cms
+y/m/n/12   \OML/cmm/m/it/12 a[] \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 b[] \OT1/cm
+r/m/n/12 + \OML/cmm/m/it/12 b[]$ \OT1/cmr/m/n/12 from $[] [] \OML/cmm/m/it/12 h
+$\OT1/cmr/m/n/12 .
+
+\hbox(12.13332+3.0)x469.75499, glue set - 1.0 []
+
+[66] [67] [68]
+Overfull \hbox (36.3712pt too wide) in alignment at lines 208--220
+ [][][] []
+
+\hbox(0.0+0.0)x469.75499 []
+
+[69] [70] [71] [72pdfTeX warning (ext4): destination with the same identifier (
+name{equation.4.4.33}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.328 \end{equation}
+                    ] [73] [74]
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 424.
+
+
+Overfull \hbox (33.49059pt too wide) in alignment at lines 422--439
+ [][][] []
+
+\hbox(0.0+0.0)x469.75499 []
+
+[75]
+Overfull \hbox (29.51231pt too wide) in alignment at lines 484--486
+ [][][] []
+
+\hbox(0.0+0.0)x469.75499 []
+
+[76]
+Overfull \hbox (29.56775pt too wide) in alignment at lines 494--505
+ [][][] []
+
+\hbox(0.0+0.0)x469.75499 []
+
+
+Overfull \hbox (7.92232pt too wide) in paragraph at lines 507--509
+\OT1/cmr/m/n/12 same Lorentz struc-ture. The lin-ear com-bi-na-tions for those 
+two op-er-a-tors are $\OML/cmm/m/it/12 a[]; a[]; []a[]$\OT1/cmr/m/n/12 .
+
+\hbox(12.13332+2.94217)x469.75499, glue set - 1.0 []
+
+
+Overfull \hbox (20.12238pt too wide) in paragraph at lines 511--512
+\OT1/cmr/m/n/12 men-sion eight. These op-er-a-tors can be gen-er-al-ized to the
+ NRQCD by us-ing $\OML/cmm/m/it/12 g [] []   \OMS/cmsy/m/n/12 !
+
+\hbox(9.91026+3.0)x469.75499, glue set - 1.0 []
+
+
+Overfull \hbox (29.71979pt too wide) in paragraph at lines 511--512
+\OML/cmm/m/it/12 g [] []  $ \OT1/cmr/m/n/12 and $\OML/cmm/m/it/12 g [] []   \OM
+S/cmsy/m/n/12 ! \OML/cmm/m/it/12 g []\OT1/cmr/m/n/12 [\OML/cmm/b/it/12 D[]\OML/
+cmm/m/it/12 ; \OT1/cmr/m/n/12 [\OML/cmm/m/it/12 D[]; \OT1/cmr/m/n/12 [\OML/cmm/
+b/it/12 D[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 E[]\OT1/cmr/m/n/12 ]]]\OML/cmm/m
+/it/12  $\OT1/cmr/m/n/12 . The op-er-a-tor $\OML/cmm/m/it/12 g[] []\OMS/cmsy/m/
+n/12 f\OML/cmm/m/it/12 i\OML/cmm/b/it/12 D[]\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 
+[\OML/cmm/b/it/12 E \OMS/cmsy/m/n/12 
+
+\hbox(9.91026+3.0)x469.75499, glue set - 1.0 []
+
+
+Overfull \hbox (20.31941pt too wide) in paragraph at lines 511--512
+\OML/cmm/b/it/12 B\OT1/cmr/m/n/12 ][]\OMS/cmsy/m/n/12 g\OML/cmm/m/it/12  $ \OT1
+/cmr/m/n/12 pro-vides color octet and sin-glet struc-tures, and they are $[]\OM
+L/cmm/m/it/12 g[] [] []  $
+
+\hbox(10.20006+4.20007)x469.75499, glue set - 1.0 []
+
+[77] [78pdfTeX warning (ext4): destination with the same identifier (name{equat
+ion.4.5.48}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.543 \begin{align}
+                   ]
+
+LaTeX Warning: Command \i invalid in math mode on input line 561.
+
+
+Overfull \hbox (24.81593pt too wide) in alignment at lines 550--563
+ [][][] []
+
+\hbox(0.0+0.0)x469.75499 []
+
+
+Overfull \hbox (66.01219pt too wide) in paragraph at lines 566--568
+\OT1/cmr/m/n/12 in equa-tion ([]4.44[]). For the NRQCD op-er-a-tors we rewrite 
+$\OML/cmm/m/it/12  [][][]\OML/cmm/b/it/12 D[]\OT1/cmr/m/n/12 [\OML/cmm/b/it/1
+2 @ \OMS/cmsy/m/n/12  \OML/cmm/b/it/12 E\OT1/cmr/m/n/12 ]\OML/cmm/b/it/12 D[]\
+OML/cmm/m/it/12  $ \OT1/cmr/m/n/12 as $\OML/cmm/m/it/12  [][][]\OML/cmm/b/it/
+12 D[]\OT1/cmr/m/n/12 [\OML/cmm/b/it/12 D[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 
+E[]\OT1/cmr/m/n/12 ]\OML/cmm/b/it/12 D[]\OML/cmm/m/it/12  $\OT1/cmr/m/n/12 .
+
+\hbox(9.91026+3.0)x469.75499, glue set - 1.0 []
+
+
+Overfull \hbox (16.42747pt too wide) in paragraph at lines 566--568
+\OT1/cmr/m/n/12 two pos-si-ble NRQCD op-er-a-tors $[]\OML/cmm/m/it/12 g[] [][]
+\OML/cmm/b/it/12 []E[] \OT1/cmr/m/n/12 [[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 
+E[]\OT1/cmr/m/n/12 ][] \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 T[]; T[]\OMS/cmsy/m/n
+/12 g\OML/cmm/m/it/12  $ \OT1/cmr/m/n/12 and $\OML/cmm/m/it/12 g[] [][]\OML/cm
+m/b/it/12 []E[] \OT1/cmr/m/n/12 [[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 E[]\OT1
+/cmr/m/n/12 ][] \OML/cmm/m/it/12  $\OT1/cmr/m/n/12 .
+
+\hbox(9.91026+4.13809)x469.75499, glue set - 1.0 []
+
+[79] [80] [81pdfTeX warning (ext4): destination with the same identifier (name{
+equation.4.5.52}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.607 \begin{align}
+                   \label{eqn:chap4_dim9_SI_Decomp}]
+Overfull \hbox (8.02931pt too wide) detected at line 621
+[]
+
+\hbox(16.79816+7.19931)x469.75499 []
+
+[82] [83]
+Overfull \hbox (8.43648pt too wide) detected at line 668
+[]
+
+\hbox(16.79816+7.19931)x469.75499 []
+
+) [84pdfTeX warning (ext4): destination with the same identifier (name{equation
+.4.6.55}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.232 	\include{Chap4}
+                      ]
+\openout2 = `Chap5.aux'.
+
+ (Chap5.tex
+CHAPTER 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+[85
+
+
+
+]
+Overfull \hbox (19.75162pt too wide) in alignment at lines 34--38
+ [][][] []
+
+\hbox(0.0+0.0)x469.75499 []
+
+[86]
+Overfull \hbox (4.78688pt too wide) in alignment at lines 43--49
+ [][][] []
+
+\hbox(0.0+0.0)x469.75499 []
+
+[87] [88]
+Overfull \hbox (14.10342pt too wide) in alignment at lines 114--125
+ [][][] []
+
+\hbox(0.0+0.0)x469.75499 []
+
+[89]
+Overfull \hbox (1.86891pt too wide) in paragraph at lines 145--145
+\OT1/cmr/m/n/12 am-ple, us-ing the model pro-vided in [[]78[]] for $\OML/cmm/m/
+it/12 h[]$ \OT1/cmr/m/n/12 we found that $\OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 ![
+] ![] g[]\OMS/cmsy/m/n/12 i 2 \OT1/cmr/m/n/12 [\OMS/cmsy/m/n/12  \OT1/cmr/m/n/1
+2 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 31\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML
+/cmm/m/it/12 :\OT1/cmr/m/n/12 49][][]$.
+
+\hbox(10.18889+3.0)x469.75499, glue set - 1.0 []
+
+[90]
+<FigureMoment2Low.pdf, id=1488, 361.35pt x 234.8775pt>
+File: FigureMoment2Low.pdf Graphic file (type pdf)
+<use FigureMoment2Low.pdf>
+Package pdftex.def Info: FigureMoment2Low.pdf  used on input line 149.
+(pdftex.def)             Requested size: 216.81168pt x 140.92758pt.
+<FigureMoment2High.pdf, id=1489, 361.35pt x 234.8775pt>
+File: FigureMoment2High.pdf Graphic file (type pdf)
+<use FigureMoment2High.pdf>
+Package pdftex.def Info: FigureMoment2High.pdf  used on input line 151.
+(pdftex.def)             Requested size: 216.81168pt x 140.92758pt.
+ [91 <./FigureMoment2Low.pdf> <./FigureMoment2High.pdf
+
+pdfTeX warning: pdflatex (file ./FigureMoment2High.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>] [92] [93] [94] [95]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 245.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 245.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 245.
+
+[96] [97] [98] [99] [100] [101]) [102]
+\openout2 = `Chap6.aux'.
+
+ (Chap6.tex
+CHAPTER 6.
+[103
+
+
+
+] [104] [105]
+
+LaTeX Warning: File `Fig1.eps' not found on input line 76.
+
+Package epstopdf Info: Source file: <Fig1.eps>
+(epstopdf)             Output file: <Fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-11-11 11:00:04
+(epstopdf)                    size: 8153 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig1-eps-converted-to.pdf F
+ig1.eps>
+(epstopdf)             \includegraphics on input line 76.
+Package epstopdf Info: Output file is already uptodate.
+<Fig1-eps-converted-to.pdf, id=1827, 242.9075pt x 221.82875pt>
+File: Fig1-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig1-eps-converted-to.pdf>
+Package pdftex.def Info: Fig1-eps-converted-to.pdf  used on input line 76.
+(pdftex.def)             Requested size: 218.61472pt x 199.64401pt.
+[106] [107 <./Fig1-eps-converted-to.pdf>] [108] [109]
+
+LaTeX Warning: Command \l invalid in math mode on input line 164.
+
+[110] [111]
+<FF exp final PDisVF_NN.pdf, id=1933, 654.445pt x 416.55624pt>
+File: FF exp final PDisVF_NN.pdf Graphic file (type pdf)
+<use FF exp final PDisVF_NN.pdf>
+Package pdftex.def Info: FF exp final PDisVF_NN.pdf  used on input line 223.
+(pdftex.def)             Requested size: 261.77336pt x 166.61954pt.
+ [112]
+<FF exp final PDisVF_model.pdf, id=1948, 830.10126pt x 526.96875pt>
+File: FF exp final PDisVF_model.pdf Graphic file (type pdf)
+<use FF exp final PDisVF_model.pdf>
+Package pdftex.def Info: FF exp final PDisVF_model.pdf  used on input line 235.
+
+(pdftex.def)             Requested size: 332.03462pt x 210.78375pt.
+) [113 <./FF exp final PDisVF_NN.pdf> <./FF exp final PDisVF_model.pdf
+
+pdfTeX warning: pdflatex (file ./FF exp final PDisVF_model.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
+\openout2 = `Chap7.aux'.
+
+ (Chap7.tex
+CHAPTER 7.
+[114
+
+
+
+] [115] [116] [117]) [118]
+\openout2 = `AppendixA.aux'.
+
+ (AppendixA.tex [119
+
+
+
+]) [120]
+\openout2 = `AppendixB.aux'.
+
+ (AppendixB.tex
+
+LaTeX Warning: Citation `Becher:2014oda' on page 121 undefined on input line 7.
+
+
+) [121
+
+
+
+]
+\openout2 = `Bibliography.aux'.
+
+ (Bibliography.tex
+Underfull \hbox (badness 1112) in paragraph at lines 108--114
+[]\OT1/cmr/m/n/12 G. Isidori, Y. Nir and G. Perez, Ann. Rev. Nucl. Part. Sci. \
+OT1/cmr/bx/n/12 60\OT1/cmr/m/n/12 , 355 (2010)
+
+\hbox(9.0+3.0)x445.60246, glue set 2.23492 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--129
+[]\OT1/cmr/m/n/12 L. L. Chau and W. Y. Ke-ung, Phys. Rev. Lett. \OT1/cmr/bx/n/1
+2 53\OT1/cmr/m/n/12 , 1802 (1984).
+
+\hbox(9.0+3.0)x445.60246, glue set 4.6703 []
+
+[122
+
+
+
+]
+Underfull \hbox (badness 1694) in paragraph at lines 157--162
+[]\OT1/cmr/m/n/12 C. Jarl-skog and R. Stora, Phys. Lett. B \OT1/cmr/bx/n/12 208
+\OT1/cmr/m/n/12 , 268 (1988). doi:10.1016/0370-
+
+\hbox(9.0+3.0)x445.60246, glue set 2.57056 []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 165--170
+[]\OT1/cmr/m/n/12 S. L. Glashow, J. Il-iopou-los and L. Ma-iani, Phys. Rev. D \
+OT1/cmr/bx/n/12 2\OT1/cmr/m/n/12 , 1285 (1970).
+
+\hbox(9.0+3.0)x445.60246, glue set 2.60382 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--178
+[]\OT1/cmr/m/n/12 M. K. Gail-lard and B. W. Lee, Phys. Rev. D \OT1/cmr/bx/n/12 
+10\OT1/cmr/m/n/12 , 897 (1974).
+
+\hbox(9.0+3.0)x445.60246, glue set 5.41411 []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 204--209
+[]\OT1/cmr/m/n/12 M. Ban-der, D. Sil-ver-man and A. Soni, Phys. Rev. Lett. \OT1
+/cmr/bx/n/12 43\OT1/cmr/m/n/12 , 242 (1979).
+
+\hbox(9.0+3.0)x445.60246, glue set 3.1145 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--218
+[]\OT1/cmr/m/n/12 M. Misiak \OT1/cmr/m/it/12 et al.\OT1/cmr/m/n/12 , Phys. Rev.
+ Lett. \OT1/cmr/bx/n/12 114\OT1/cmr/m/n/12 , no. 22, 221801 (2015)
+
+\hbox(9.0+3.0)x445.60246, glue set 5.70447 []
+
+[123]
+Underfull \hbox (badness 2111) in paragraph at lines 272--277
+[]\OT1/cmr/m/n/12 K. G. Wil-son and W. Zim-mer-mann, Com-mun. Math. Phys. \OT1/
+cmr/bx/n/12 24\OT1/cmr/m/n/12 , 87 (1972).
+
+\hbox(9.0+3.0)x445.60246, glue set 2.7654 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--331
+[]\OT1/cmr/m/n/12 D. J. Gross and F. Wilczek, Phys. Rev. Lett. \OT1/cmr/bx/n/12
+ 30\OT1/cmr/m/n/12 , 1343 (1973).
+
+\hbox(9.0+3.0)x445.60246, glue set 5.58125 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--348
+[]\OT1/cmr/m/n/12 E. Eichten and F. Fein-berg, Phys. Rev. D \OT1/cmr/bx/n/12 23
+\OT1/cmr/m/n/12 , 2724 (1981).
+
+\hbox(9.0+3.0)x445.60246, glue set 6.94109 []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 351--356
+[]\OT1/cmr/m/n/12 N. Is-gur and M. B. Wise, Phys. Lett. B \OT1/cmr/bx/n/12 232\
+OT1/cmr/m/n/12 , 113 (1989). doi:10.1016/0370-
+
+\hbox(9.0+3.0)x445.60246, glue set 2.38283 []
+
+[124]
+Underfull \hbox (badness 10000) in paragraph at lines 498--503
+[]\OT1/cmr/m/n/12 N. Is-gur and M. B. Wise, Phys. Rev. Lett. \OT1/cmr/bx/n/12 6
+6\OT1/cmr/m/n/12 , 1130 (1991).
+
+\hbox(9.0+3.0)x445.60246, glue set 6.1649 []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 506--512
+[]\OT1/cmr/m/n/12 T. Man-nel, Phys. Rev. D \OT1/cmr/bx/n/12 50\OT1/cmr/m/n/12 ,
+ 428 (1994) doi:10.1103/PhysRevD.50.428 [hep-
+
+\hbox(9.0+3.0)x445.60246, glue set 2.7293 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--521
+[]\OT1/cmr/m/n/12 T. Man-nel, S. Tur-czyk and N. Uralt-sev, JHEP \OT1/cmr/bx/n/
+12 1011\OT1/cmr/m/n/12 , 109 (2010)
+
+\hbox(9.0+3.0)x445.60246, glue set 5.37895 []
+
+[125]
+Underfull \hbox (badness 2173) in paragraph at lines 533--539
+[]\OT1/cmr/m/n/12 P. Gam-bino, K. J. Healey and S. Tur-czyk, Phys. Lett. B \OT1
+/cmr/bx/n/12 763\OT1/cmr/m/n/12 , 60 (2016)
+
+\hbox(9.0+3.0)x445.60246, glue set 2.7921 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 543--551
+[]\OT1/cmr/m/n/12 A. F. Falk and M. Neu-bert, Phys. Rev. D \OT1/cmr/bx/n/12 47\
+OT1/cmr/m/n/12 , 2965 (1993)
+
+\hbox(9.0+3.0)x445.60246, glue set 6.48277 []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 561--567
+[]\OT1/cmr/m/n/12 D. Ben-son, I. I. Bigi and N. Uralt-sev, Nucl. Phys. B \OT1/c
+mr/bx/n/12 710\OT1/cmr/m/n/12 , 371 (2005)
+
+\hbox(9.0+3.0)x445.60246, glue set 3.39682 []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 596--602
+[]\OT1/cmr/m/n/12 B. Aubert \OT1/cmr/m/it/12 et al. \OT1/cmr/m/n/12 [BaBar Col-
+lab-o-ra-tion], Phys. Rev. D \OT1/cmr/bx/n/12 77\OT1/cmr/m/n/12 , 051103 (2008)
+
+
+\hbox(9.0+3.0)x445.60246, glue set 3.3103 []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 605--611
+[]\OT1/cmr/m/n/12 S. Chen \OT1/cmr/m/it/12 et al. \OT1/cmr/m/n/12 [CLEO Col-lab
+-o-ra-tion], Phys. Rev. Lett. \OT1/cmr/bx/n/12 87\OT1/cmr/m/n/12 , 251807 (2001
+)
+
+\hbox(9.0+3.0)x445.60246, glue set 3.11298 []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 614--620
+[]\OT1/cmr/m/n/12 J. P. Lees \OT1/cmr/m/it/12 et al. \OT1/cmr/m/n/12 [BaBar Col
+-lab-o-ra-tion], Phys. Rev. D \OT1/cmr/bx/n/12 86\OT1/cmr/m/n/12 , 052012 (2012
+)
+
+\hbox(9.0+3.0)x445.60246, glue set 3.135 []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 623--629
+[]\OT1/cmr/m/n/12 J. P. Lees \OT1/cmr/m/it/12 et al. \OT1/cmr/m/n/12 [BaBar Col
+-lab-o-ra-tion], Phys. Rev. Lett. \OT1/cmr/bx/n/12 109\OT1/cmr/m/n/12 , 191801 
+(2012)
+
+\hbox(9.0+3.0)x445.60246, glue set 2.19962 []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 632--638
+[]\OT1/cmr/m/n/12 T. Saito \OT1/cmr/m/it/12 et al. \OT1/cmr/m/n/12 [Belle Col-l
+ab-o-ra-tion], Phys. Rev. D \OT1/cmr/bx/n/12 91\OT1/cmr/m/n/12 , no. 5, 052004 
+(2015)
+
+\hbox(9.0+3.0)x445.60246, glue set 2.21634 []
+
+[126]
+Underfull \hbox (badness 2828) in paragraph at lines 648--654
+[]\OT1/cmr/m/n/12 B. O. Lange, M. Neu-bert and G. Paz, Phys. Rev. D \OT1/cmr/bx
+/n/12 72\OT1/cmr/m/n/12 , 073006 (2005)
+
+\hbox(9.0+3.0)x445.60246, glue set 3.04893 []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 657--663
+[]\OT1/cmr/m/n/12 M. Ben-zke, S. J. Lee, M. Neu-bert and G. Paz, JHEP \OT1/cmr/
+bx/n/12 1008\OT1/cmr/m/n/12 , 099 (2010)
+
+\hbox(9.0+3.0)x445.60246, glue set 2.92746 []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 666--672
+[]\OT1/cmr/m/n/12 E. Kou \OT1/cmr/m/it/12 et al. \OT1/cmr/m/n/12 [Belle-II Col-
+lab-o-ra-tion], PTEP \OT1/cmr/bx/n/12 2019\OT1/cmr/m/n/12 , no. 12, 123C01 (201
+9)
+
+\hbox(9.0+3.0)x445.60246, glue set 2.87335 []
+
+
+Underfull \hbox (badness 5119) in paragraph at lines 711--717
+[]\OT1/cmr/m/n/12 S. J. Lee, M. Neu-bert and G. Paz, Phys. Rev. D \OT1/cmr/bx/n
+/12 75\OT1/cmr/m/n/12 , 114005 (2007)
+
+\hbox(9.0+3.0)x445.60246, glue set 3.71565 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--733
+[]\OT1/cmr/m/n/12 K. Mel-nikov and A. Mi-tov, Phys. Lett. B \OT1/cmr/bx/n/12 62
+0\OT1/cmr/m/n/12 , 69 (2005)
+
+\hbox(9.0+3.0)x445.60246, glue set 7.45454 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--742
+[]\OT1/cmr/m/n/12 T. Becher and M. Neu-bert, Phys. Lett. B \OT1/cmr/bx/n/12 637
+\OT1/cmr/m/n/12 , 251 (2006)
+
+\hbox(9.0+3.0)x445.60246, glue set 7.12881 []
+
+[127]
+Underfull \hbox (badness 3623) in paragraph at lines 772--778
+[]\OT1/cmr/m/n/12 B. Aubert \OT1/cmr/m/it/12 et al. \OT1/cmr/m/n/12 [BaBar Col-
+lab-o-ra-tion], Phys. Rev. D \OT1/cmr/bx/n/12 72\OT1/cmr/m/n/12 , 052004 (2005)
+
+
+\hbox(9.0+3.0)x445.60246, glue set 3.3103 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 799--805
+[]\OT1/cmr/m/n/12 A. L. Ka-gan and M. Neu-bert, Phys. Rev. D \OT1/cmr/bx/n/12 5
+8\OT1/cmr/m/n/12 , 094012 (1998)
+
+\hbox(9.0+3.0)x445.60246, glue set 5.47552 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 817--823
+[]\OT1/cmr/m/n/12 A. G. Grozin and M. Neu-bert, Phys. Rev. D \OT1/cmr/bx/n/12 5
+5\OT1/cmr/m/n/12 , 272 (1997)
+
+\hbox(9.0+3.0)x445.60246, glue set 6.11308 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 863--871
+[]\OT1/cmr/m/n/12 A. Kobach and S. Pal, Phys. Lett. B \OT1/cmr/bx/n/12 772\OT1/
+cmr/m/n/12 , 225 (2017)
+
+\hbox(9.0+3.0)x445.60246, glue set 8.04953 []
+
+[128]
+Underfull \hbox (badness 10000) in paragraph at lines 872--878
+[]\OT1/cmr/m/n/12 J. Heinonen and T. Man-nel, Nucl. Phys. B \OT1/cmr/bx/n/12 88
+9\OT1/cmr/m/n/12 , 46 (2014)
+
+\hbox(9.0+3.0)x445.60246, glue set 6.78761 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--887
+[]\OT1/cmr/m/n/12 M. Gremm and A. Ka-pustin, Phys. Rev. D \OT1/cmr/bx/n/12 55\O
+T1/cmr/m/n/12 , 6924 (1997)
+
+\hbox(9.0+3.0)x445.60246, glue set 6.47383 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--896
+[]\OT1/cmr/m/n/12 A. H. Hoang and A. V. Manohar, Phys. Lett. B \OT1/cmr/bx/n/12
+ 633\OT1/cmr/m/n/12 , 526 (2006)
+
+\hbox(9.0+3.0)x445.60246, glue set 4.40858 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 899--905
+[]\OT1/cmr/m/n/12 M. Misiak and M. Stein-hauser, Nucl. Phys. B \OT1/cmr/bx/n/12
+ 764\OT1/cmr/m/n/12 , 62 (2007)
+
+\hbox(9.0+3.0)x445.60246, glue set 6.09082 []
+
+[129]
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1046
+[]\OT1/cmr/m/n/12 T. Becher and R. J. Hill, Phys. Lett. B \OT1/cmr/bx/n/12 633\
+OT1/cmr/m/n/12 , 61 (2006)
+
+\hbox(9.0+3.0)x445.60246, glue set 7.04514 []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 1058--1064
+[]\OT1/cmr/m/n/12 B. Grin-stein and R. F. Lebed, Phys. Rev. D \OT1/cmr/bx/n/12 
+92\OT1/cmr/m/n/12 , no. 11, 116001 (2015)
+
+\hbox(9.0+3.0)x445.60246, glue set 2.87051 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1082
+[]\OT1/cmr/m/n/12 P. Ball and R. Zwicky, Phys. Rev. D \OT1/cmr/bx/n/12 71\OT1/c
+mr/m/n/12 , 014015 (2005)
+
+\hbox(9.0+3.0)x445.60246, glue set 7.53629 []
+
+[130]
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1114
+[]\OT1/cmr/m/n/12 R. D. Ball \OT1/cmr/m/it/12 et al. \OT1/cmr/m/n/12 [NNPDF Col
+-lab-o-ra-tion], JHEP \OT1/cmr/bx/n/12 1504\OT1/cmr/m/n/12 , 040 (2015)
+
+\hbox(9.0+3.0)x445.60246, glue set 4.89845 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1125--1131
+[]\OT1/cmr/m/n/12 K. M. Graczyk, P. Plon-ski and R. Sulej, JHEP \OT1/cmr/bx/n/1
+2 1009\OT1/cmr/m/n/12 , 053 (2010)
+
+\hbox(9.0+3.0)x445.60246, glue set 4.59854 []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 1143--1149
+\OT1/cmr/m/n/12 Maranto and L. Zde-borova, Rev. Mod. Phys. \OT1/cmr/bx/n/12 91
+\OT1/cmr/m/n/12 , no. 4, 045002 (2019)
+
+\hbox(9.0+3.0)x445.60246, glue set 3.66307 []
+
+[131]) [132]
+\openout2 = `abstract.aux'.
+
+ (abstract.tex [133
+
+
+]) [134]
+\openout2 = `autobio.aux'.
+
+ (autobio.tex
+Underfull \hbox (badness 10000) in paragraph at lines 23--28
+
+
+\hbox(0.0+0.0)x469.75499 []
+
+) [135
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
+ (dissertation.aux (title.aux) (acknowledgements.aux) (Chap1.aux)
+(Chap2.aux) (Chap3.aux) (Chap4.aux) (Chap5.aux) (Chap6.aux) (Chap7.aux)
+(AppendixA.aux) (AppendixB.aux) (Bibliography.aux) (abstract.aux) (autobio.aux)
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
+Package rerunfilecheck Info: File `dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: 7BB691838F62FF0A85CEE512B67841C7;2766.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
+ ) 
+Here is how much of TeX's memory you used:
+ 25009 strings out of 481258
+ 493522 string characters out of 2906189
+ 790730 words of memory out of 3000000
+ 39142 multiletter control sequences out of 15000+200000
+ 546066 words of font info for 74 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 67i,21n,82p,2442b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\ayesh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcrm1200.pk><C:/Users/ayesh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmbsy10.pfb><C:/Users/ayesh/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ayesh/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/ayesh/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ayesh
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Users/ayesh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><C:/Users/ayesh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi5.pfb><C:/Users/ayesh/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/ayesh/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ayesh/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ayesh/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Us
+ers/ayesh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Users/ayesh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Users/ayesh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr6.pfb><C:/Users/ayesh/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ayesh/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ayesh/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ayesh
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:
+/Users/ayesh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy8.pfb><C:/Users/ayesh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmti12.pfb><C:/Users/ayesh/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmtt12.pfb>
+Output written on dissertation.pdf (142 pages, 2225267 bytes).
+PDF statistics:
+ 2399 PDF objects out of 2487 (max. 8388607)
+ 712 named destinations out of 1000 (max. 500000)
+ 425 words of extra memory for PDF output out of 10000 (max. 10000000)
+

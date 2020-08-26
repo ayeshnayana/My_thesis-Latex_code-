@@ -1,0 +1,7 @@
+This set of files is known to work on a modern LaTeX distribution, like texlive, on a modern Linux system.
+
+The simplest way to build a PDF is to
+
+$ pdflatex dissertation.tex
+
+Enjoy!

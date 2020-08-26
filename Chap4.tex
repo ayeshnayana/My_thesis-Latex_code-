@@ -1,0 +1,668 @@
+\chapter{New results : On HQET and NRQCD operators of dimension 8 and above}\label{chap:Matrix_elements}
+As shown in section \ref{sec:Q1Q7_cont}, the moments of the soft function $h_{17}$ are related to the HQET parameters. The contribution from the operator pair $Q_{1}^q-Q_{7\gamma}$ is obtained using the information on these moments. To reevaluate the $Q_{1}^q-Q_{7\gamma}$ contribution, we develop a new model for $h_{17}$ based on higher moments of $h_{17}$. These higher moments are related to the HQET matrix elements of mass dimension seven and above. 
+The HQET matrix operators contain two heavy quark fields and covariant derivatives. 
+The HQET and NRQCD Lagrangian operators are defined up to and including dimension seven in \cite{Manohar:1997qy}. In section \ref{NRQCD}, we showed that these Lagrangians differ in power counting, but they can be related to each other using the field redefinition.  The HQET/NRQCD operators up to and including the dimension seven are provided in \cite{Manohar:1997qy}. There are six spin-independent operators and five spin-dependent operators at dimension seven. The comparison between the dimension seven HQET matrix elements and dimension seven HQET and NRQCD operators provides the following: for the spin-dependent operators the number is the same as the numbers of the spin-dependent matrix elements considered in \cite{Mannel:2010wj}, while the spin independent number of operators is different. Why is there a difference and what is the relation between these two bases? \cite{Gunawardana:2017zix} \par
+More recently, the NRQED Lagrangian up to and including power $1/M^4$ was calculated in \cite{Hill:2012rh}. It includes NRQED operators of dimension eight and below.  The Lagrangian was constructed by considering all the possible rotationally invariant, $P$ and $T$ even, Hermitian combinations of $iD_t$, $i\bm{D}$, $\bm{E}$, $\bm{B}$, and $\bm{\sigma}$. The analogous construction of the NRQED Lagrangian up to $1/M^2$ was explicitly demonstrated in \cite{Paz:2015uga}. For higher power of $1/M$, corresponding to higher dimensional operators, this construction becomes  tedious. There can be different choices for the form of the operators. It is not immediately clear if a pair of operators is linearly independent and what is the total number of linearly independent operators.  It would be useful to find a simpler way to construct these operators. Furthermore, the $1/M^4$ NRQED Lagrangian contains four spin-independent and eight spin-dependent operators. This is less than the number of matrix elements considered in \cite{Mannel:2010wj}.  Presumably the rest correspond to NRQCD operators that do not exist for NRQED. What are they? \par
+In the following work we address these questions by considering a general decomposition of a matrix elements into linearly independent tensors. These matrix elements have the following form $\left\langle H\left|\bar{h} i D^{\mu_{1}} \ldots i D^{\mu_{n}}\left(s^{\lambda}\right) h\right| H\right\rangle$, where $H$ represent a pseudo scalar heavy meson state, $h$ represent the heavy quark field, and $s^{\lambda}$ is the four dimension generalization of Pauli matrices.
+\section{General method}\label{sec:gen_method}
+\subsection{Definitions}\label{sec:def}
+The chromo-electric and magnetic fields are defined as
+\begin{eqnarray}\label{eqn:Chap4_chromo_elec_mag}
+\begin{array}{l}
+{\left[D_{t}, \mathbf{D}\right] \equiv i g \mathbf{E}} \\
+{\left[\bm{D}_{i}, \bm{D}_{j}\right] \equiv-i g \epsilon_{i j k} \bm{B}^{k}},
+\end{array}
+\end{eqnarray}
+where $\bm{E}=\bm{E}_aT^a$, $\bm{E}=\bm{B}_aT^a$, and $T^a$ are $SU(3)$ generators. The commutator and anti-commutators are defined as $[X, Y] \equiv X Y-Y X$ and $\{X, Y\} \equiv X Y+Y X$ respectively. Finally, we define the matric $g^{\mu\nu}$ as $g^{\mu\nu}=\rm{diag}(1,-1,-1,-1)$ and heavy quark four velocity ($v$) as $v=(1,0,0,0)$.\par
+The form of a generic operator in dimension $n+3$ is \cite{Mannel:1994kv}
+\begin{eqnarray}\label{eqn:chap4_generic_operator}
+\mathcal{O}_{\mu_{1}, \mu_{2} \cdots \mu_{n}}^{(\mathrm{r})}=\bar{h}\left(i D^{\mu_{1}}\right)\left(i D^{\mu_{2}}\right) \cdots\left(i D^{\mu_{n}}\right) \Gamma h,
+\end{eqnarray}
+where $n$ is a positive integer. The Dirac matrix $\Gamma$ in equation (\ref{eqn:chap4_generic_operator}) is expanded in the basis $\lbrace 1, \gamma_{5}, \gamma_{\mu} \gamma_{5} \gamma_{\mu}, \sigma_{\mu \nu}\rbrace$. The $\Gamma$ is sandwiched between projection operator $P_{+}$, which is defined by
+\begin{eqnarray}\label{eqn:chap4_proj}
+P_{+}=\frac{1}{2}(1+\slashed{v}),
+\end{eqnarray}
+where $\slashed{v}=\gamma^{\alpha}v_{\alpha}$. Using the projection operators we transform the Dirac basis as follows \cite{Mannel:1994kv}:
+\begin{eqnarray}\label{trans1}
+1\rightarrow P_{+} = \dfrac{1}{2}(1+\slashed{v})\nonumber\\ \gamma_{\mu} \rightarrow P_{+}\gamma_{\mu}P_{+}=v_{\mu}P_{+}
+\end{eqnarray}
+\vspace{-2cm}
+\begin{eqnarray}\label{trans2}
+\gamma_{\mu}\gamma_{5}\rightarrow P_{+}\gamma_{\mu}\gamma_{5}P_{+}=s_{\mu}\nonumber\\\gamma_{5}\rightarrow P_{+}\gamma_{5}P_{+}=0
+\end{eqnarray}
+\vspace{-2cm}
+\begin{eqnarray}\label{trans3}
+(-i)\sigma_{\mu\nu}\rightarrow P_{+}(-i)\sigma_{\mu\nu}P_{+}=iv^{\alpha}\epsilon_{\alpha\mu\nu\beta}s^{\beta},
+\end{eqnarray}
+where the sign of the Levi-Civita tensor is $\epsilon^{0123}=-1 \text { and } \epsilon_{0123}=1$. Since $v\cdot s=0$, there are only three independent $s^{\mu}$.  
+The Dirac matrix $\Gamma$ then expanded into the four matrices $1$ and $s_{\mu}$ as \cite{Mannel:1994kv}:
+\begin{eqnarray}\label{eqn:chap4_matrix_decomp}
+P_{+} \Gamma P_{+}=\frac{1}{2} P_{+} \operatorname{Tr}\left\{P_{+} \Gamma\right\}-\frac{1}{2} s_{\mu} \operatorname{Tr}\left\{s^{\mu} \Gamma\right\}.
+\end{eqnarray}
+Following from the equation (\ref{eqn:chap4_matrix_decomp}), the generic operator can be reduced to following two forms:
+\begin{eqnarray}
+\begin{array}{c}
+{\text{Spin independent operators}=\bar{h}\left(i D^{\mu_{1}}\right)\left(i D^{\mu_{2}}\right) \cdots\left(i D^{\mu_{n}}\right) h} \\
+{\text{Spin dependent operators}=\bar{h}\left(i D^{\mu_{1}}\right)\left(i D^{\mu_{2}}\right) \cdots\left(i D^{\mu_{n}}\right) s^{\lambda} h}
+\end{array}
+\end{eqnarray}
+\vspace{-0.8cm}
+\subsection{Constraints on matrix elements}\label{subsec:constr_mat}
+The basis for the HQET matrix elements is constructed using the constraints obtained from the discrete symmetries, Hermiticity of the matrix elements, HQET equation of motion, and color structure.
+\vspace{-0.5cm}
+\subsubsection{Constraints from discrete symmetries and Hermiticity}
+HQET and NRQCD are invariant under $P$ and $T$ discrete symmetries. Therefore, the HQET matrix elements and HQET and NRQCD operators also satisfy these symmetries. In the table \ref{tab:P_T_transform} we provide the $P$ and $T$ and $PT$ transformation of momentuum $(p)$, four velocity $(v)$, $\text{covariant derivative}\, (iD^{\mu})$, and $\text{generalized Pauli matrix}\,(s^{\lambda})$ \cite{Gunawardana:2017zix}
+\begin{table}[H]
+\caption{Transformation of $p,v,iD^{\mu}$ and $s^{\lambda}$ under $P,T$ and $PT$ symmetries}
+\begin{center}\label{tab:P_T_transform}
+\begin{tabular}{ |c|c|c|c|c|c| } 
+\hline
+Operator & Transformation under $P$ & Transformation under $T$ & transformation under $PT$\\ 
+\hline
+\multirow{1}{4em}{p} & $(p^0,-\vec{p})$ & $(p^0,-\vec{p})$ & $(p^0,\vec{p})$\\ 
+\hline
+\multirow{1}{4em}{$v$} & $(v^0,-\vec{v})$ & $(v^0,-\vec{v})$ & $(v^0,\vec{v})$ \\ 
+\hline
+\multirow{1}{4em}{$iD^{\mu}$} & $(-1)^{\mu}(iD^{\mu})$ & $(-1)^{\mu}(iD^{\mu})$ & $iD^{\mu}$\\ 
+\hline
+\multirow{1}{4em}{$s^{\lambda}$} & $-(-1)^{\lambda}s^{\lambda}$ & $(-1)^{\lambda}s^{\lambda}$ & $-s^{\lambda}$ \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+These transformations allow us to show that
+\begin{eqnarray}\label{eqn:chap4_PT_trans}
+\left\langle H\left|\bar{h} i D^{\mu_{1}} \ldots i D^{\mu_{n}} h\right| H\right\rangle \stackrel{P T}{=}\left\langle H\left|\bar{h} i D^{\mu_{1}} \ldots i D^{\mu_{n}} h\right| H\right\rangle^{*}
+\end{eqnarray}
+\begin{eqnarray}
+\left\langle H\left|\bar{h} i D^{\mu_{1}} \ldots i D^{\mu_{n}} s^{\lambda} h\right| H\right\rangle \stackrel{P T}{=}-\left\langle H\left|\bar{h} i D^{\mu_{1}} \ldots i D^{\mu_{n}} s^{\lambda} h\right| H\right\rangle^{*},
+\end{eqnarray}
+where the complex conjugation arises due to the anti-linear $T$. It is important to note that there is a relative minus sign between $PT$ transformation of spin-independent operators and spin-dependent operators. This implies that the spin-independent matrix elements are real, whereas spin-dependent matrix elements are imaginary.\par
+Since $\bar{h}h, \bar{h}s^{\lambda}h$, and $iD^{\mu}$ are Hermitian, we use Hermitian conjugation to put further constraints on the matrix elements
+\begin{eqnarray}
+\left\langle H\left|\bar{h} i D^{\mu_{1}} \ldots i D^{\mu_{n}}\left(s^{\lambda}\right) h\right| H\right\rangle= & \left\langle H\left|\left(\bar{h} i D^{\mu_{1}} \ldots i D^{\mu_{n}}\left(s^{\lambda}\right) h\right)^{\dagger}\right| H\right\rangle^{*}=\nonumber\\
+=& \left\langle H\left|\bar{h} i D^{\mu_{n}} \ldots i D^{\mu_{1}}\left(s^{\lambda}\right) h\right| H\right\rangle^{*}
+\end{eqnarray}
+Combining the constraints from PT symmetry and Hermitian conjugation we obtain a new symmetry, which we call ``inversion symmetry". The spin-independent (dependent) matrix elements are symmetric (anti-symmetric) under inversion symmetry.\par
+The state $H$ is a pseudo scalar. The matrix element of $\langle H|\bar h\, iD^{\mu_1}\dots\, iD^{\mu_n}(s^\lambda)h|H\rangle$ can only depend on $v_{\mu_i}$ and $g^{\mu_i\mu_j}$ and $\epsilon^{\alpha\beta\rho\sigma}$. Following the notation in \cite{Mannel:2010wj} we define $\Pi^{\mu \nu}=g^{\mu \nu}-v^{\mu} v^{\nu}$. In general, we have $v_{\mu}\Pi^{\mu\nu}=0$ and $v_{\nu}\Pi^{\mu\nu}=0$. For $v=(1,0,0,0)$ we obtain $\Pi^{00}$ and $\Pi^{ij}=-\delta^{ij}$. Also, note that all four indices in $\epsilon^{\alpha\beta\rho\sigma}$ cannot be orthogonal to $v$ in a four dimensional space-time. As a result, we can replace $\epsilon^{\alpha\beta\rho\sigma}\rightarrow \epsilon^{\alpha\beta\rho\sigma}v_{\alpha}$ \cite{Gunawardana:2017zix}.\par
+In four dimension, a given tensor can have four independent directions only. Following from this, we found certain tensors with more than four indices become not independent although they have different combination of indices. For instance, three indices must be the same in the tensor $\Pi^{\mu\nu}\epsilon^{\alpha\beta\rho\sigma}v_{\alpha}$. Because of this, not all the tensors obtained by the permutations of $\Pi^{\mu\nu}$ and $\epsilon^{\alpha\beta\rho\sigma}v_{\alpha}$ can be linearly independent.\par
+The decomposition gives a correspondence between the operators  $\bar h\, iD^{\mu_1}\dots\, iD^{\mu_n}(s^\lambda)h$ and non-perturbative parameters. Questions such as the linear independence of a given set of operators, and the number of linearly independent operators of a given dimension are answered by considering the vector space of  non-perturbative parameters of a given dimension\footnote{A potential caveat to this argument is that one can imagine an operator that has a zero matrix element. The only such example is the operator $\bar h\, iv\cdot Dh$, which is the first term in the HQET and NRQCD (NRQED) Lagrangians. This term is unique in the sense that it is the only one that includes $iv\cdot D$ in the HQET Lagrangian or $iD_t$ (not in a commutator) in the NRQCD (NRQED) Lagrangian.} \cite{Gunawardana:2017zix}.
+\vspace{-0.4cm}
+\subsubsection{Constraints from HQET equation of motion}
+\vspace{-0.3cm}
+As shown in section \ref{sec:HQET_Lag_constr}, the equation of motion obtained from the HQET Lagrangian provides
+\begin{eqnarray}\label{eqn:chap4_HQET_EOM}
+i v\cdot D h=0.
+\end{eqnarray}
+This equation provides that the multiplication of matrix element by $v_{\mu_1}$ or $v_{\mu_n}$ yields zero, and it implies that the $v_{\mu_1}$ and $v_{\mu_n}$ are orthogonal to $v$ \cite{Mannel:1994kv}. This relation holds in the NRQED and NRQCD as well \cite{Gunawardana:2017zix}. As a consequence, the operators of the form $\cdots iv\cdot D\psi$ or $\psi^{\dagger}iv\cdot D\cdots$ can be removed by field redefinition. 
+\vspace{-0.5cm}
+\subsubsection{Constraints on possible color structures}\label{subsubsec:possible_color_struc}
+\vspace{-0.3cm}
+The covariant derivative $D^{\mu}=\partial^{\mu}+i g A^{\mu a} T^{a}$ combines the unit matrix in color space (color singlet) and a product
+of an octet vector field $A^{\mu a}$ with octet of $SU(3)$ color matrices. Gauge invariance stipulates that both $A^{\mu a}$ and $\partial_u$ must appear together. Because of this, the covariant derivatives  does not have an independent color singlet and octet parts .On the other hand, the product of two covariant derivatives can be decomposed into a commutator and an anti-commutator matrices. These commutators only contain a color octet part. Whereas, the anti-commutators possess both singlet and octet parts, which cannot be separated. The product of three covariant derivatives has an analogous structure to the two covariant derivatives \cite{Gunawardana:2017zix}.\par
+For the product of four covariant derivatives we obtain products of commutators and anti-commutators for the first time. For instance, consider the NRQCD operator $\psi^{\dagger} E_{a}^{i} T^{a} E_{b}^{i} T^{b} \psi$ \cite{Kobach:2017xkw}. This operator contains a product of $SU(3)$ color matrices, which is given by
+\begin{eqnarray}\label{eqn:chap4_prod_color_mat}
+\left\{T^{a}, T^{b}\right\}=\frac{1}{3} \delta^{a b}+d^{a b c} T^{c}.
+\end{eqnarray}
+In equation (\ref{eqn:chap4_prod_color_mat}) the singlet and octet parts are not connected by gauge invariance and they give rise to two operators with different color structure. Instead of a singlet and an octet we can choose the basis of $\left\{T^a,T^b\right\}$ and $\delta^{ab}$. Thus we have two different operators with two chromo-electric fields:  $\psi^\dagger E^i_a E^i_b\left\{T^a,T^b\right\} \psi$ and $\psi^\dagger E^i_a E^i_b \delta^{ab}\psi$. Only the first one is generated by commutator and anti-commutators of covariant derivatives. The second operator is  generated when we consider the one-loop self-energy corrections to the first operators. Thus a one gluon exchange between $\psi^\dagger$ and $\psi$ in $\psi^\dagger E^i_a E^i_b\left\{T^a,T^b\right\} \psi$ gives the color structures \cite{Gunawardana:2017zix}:
+\begin{eqnarray}\label{eqn:chap4_color_struc_loop_level}
+T_{i j}^{c}\left\{T^{a}, T^{b}\right\}_{j k} T_{k l}^{c}=\left\{T^{a}, T^{b}\right\}_{j k}\left(\frac{1}{2} \delta_{i l} \delta_{k j}-\frac{1}{6} \delta_{i j} \delta_{k l}\right)=\frac{1}{2} \delta^{a b} \delta_{i l}-\frac{1}{6}\left\{T^{a}, T^{b}\right\}_{i l},
+\end{eqnarray}
+where $i,j,k,l=1,2,3$ and $a,b,c=1,\cdots 8$. Here  we used a color identity for $T^c_{ij}T^c_{kl}$. In other words, when calculating observables at tree level only $\psi^\dagger E^i_a E^i_b\left\{T^a,T^b\right\} \psi$ appears \cite{Manohar:1997qy}. At one loop we need to consider also $\psi^\dagger E^i_a E^i_b \delta^{ab}\psi$. The case of five covariant derivatives is discussed in sections \ref{sec:dim_8_SI} and \ref{sec:dim8_SD}. The appearance of color singlet structures at one loop-level was first pointed out in \cite{Kobach:2017xkw}. This was incorporated into our general decomposition of matrix elements. 
+
+\section{Spin-independent operators upto and including dimension 8}\label{sec:SI_mat_decomp}
+
+Consider the generic HQET matrix element in the form of $\left\langle H\left|\bar{h} i D^{\mu_{1}} \ldots i D^{\mu_{n}}\left(s^{\lambda}\right) h\right| H\right\rangle$. We then decompose this matrix element in terms of nonperturbative parameters multiplies by tensors ($\Pi^{\mu_i\nu_j}$) \cite{Gunawardana:2017zix}. 
+\subsection{Dimension three}
+The dimension 3 operator does not contain any covarint derivatives.
+\begin{eqnarray}\label{eqn:chap4_dim_3_SI_decomp}
+\frac{1}{2 M_{H}}\langle H|\bar{h} h| H\rangle= 1
+\end{eqnarray}
+\subsection{Dimension four operators}
+At dimension four we have one covariant derivative. This matrix element needed to be decomposed into tensor structure with one Lorentz index. The only possible choice is $v_{\mu_1}$. Using the HQET equation of motion ($iv\cdot Dh=0$) we obtain 
+\begin{eqnarray}\label{eqn:chap4_dim4_SI_decomp}
+\frac{1}{2 M_{H}}\left\langle H\left|\bar{h} i D^{\mu_{1}} h\right| H\right\rangle = 0.
+\end{eqnarray}
+\subsection{Dimension five operators}
+Dimension five spin independent operator contains two covariant derivatives. Thus the matrix element can be decomposed into tensor with two Lorentz indices. The natural choice is $\Pi^{\mu_i\mu_j}$. Hence we have 
+
+\begin{eqnarray}\label{eqn:chap4_dim5_SI_decomp}
+\frac{1}{2 M_{H}}\left\langle H\left|\bar{h} i D^{\mu_{1}} i D^{\mu_{2}} h\right| H\right\rangle= a^{(5)} \Pi^{\mu_{1} \mu_{2}},
+\end{eqnarray}
+where coefficient $a^{(5)}$ related to nonperturbative HQET parameter.
+\subsection{Dimension six operators}\label{subsec:dim_6_SI}
+We need to consider $\langle H |\bar h\, iD^{\mu_1}iD^{\mu_2}iD^{\mu_3}h|H\rangle$. The tensor $\epsilon^{\rho\mu_1\mu_2\mu_3} v_\rho$ is ruled out by parity. This is most easily seen by taking $v=(1,0,0,0)$ which requires $\mu_1,\mu_2,\mu_3$ to be space-like. Hence the matrix element has a an odd number of space-like covariant derivatives and  is zero by parity.  The only possible tensor combination is a product of a $v$ and $\Pi$. We must use $\Pi^{\mu_1\mu_3}$ and we find only one possible non-perturbative parameter \cite{Gunawardana:2017zix}:
+\begin{eqnarray}\label{eqn:chap4_dim6_SI_decomp}
+\frac{1}{2 M_{H}}\left\langle H\left|\bar{h} i D^{\mu_{1}} i D^{\mu_{2}} i D^{\mu_{3}} h\right| H\right\rangle= a^{(6)} \Pi^{\mu_{1} \mu_{3}} v^{\mu_{2}},
+\end{eqnarray}
+where the coefficient $a^{(6)}$ is a nonperturbative parameter. Under inversion $\Pi^{\mu_1\mu_3}v^{\mu_2}\to\Pi^{\mu_3\mu_1}v^{\mu_2}=\Pi^{\mu_1\mu_3}v^{\mu_2}$.
+\subsection{Dimension seven operators}\label{subsec:dim7_SI_decomp}
+Here we need more than one tensor structure. We can have a product of two $\Pi$'s or a product of $\Pi$ and two $v$'s. For products of two $\Pi$'s  we can contract $\mu_1$ with $\mu_2,\mu_3,$ or $\mu_4$ using $\Pi$. The other two indices are also contracted  by $\Pi$. In total we have three such combinations of two $\Pi$'s. Using two $v$'s, they can only be contracted  with $\mu_2$ and $\mu_3$ giving us a fourth tensor. In total we have
+
+\begin{eqnarray}\label{eqn:chap4_SI_decomp}
+\dfrac1{2M_H}\langle H |\bar h\, iD^{\mu_1}iD^{\mu_2}iD^{\mu_3}iD^{\mu_4}h|H\rangle&=&a_{12}^{(7)}\Pi^{\mu_1\mu_2}\Pi^{\mu_3\mu_4}+a_{13}^{(7)}\Pi^{\mu_1\mu_3}\Pi^{\mu_2\mu_4}+\nonumber\\
+&+&a_{14}^{(7)}\Pi^{\mu_1\mu_4}\Pi^{\mu_2\mu_3}+b^{(7)}\Pi^{\mu_1\mu_4}v^{\mu_2} v^{\mu_3}. 
+\end{eqnarray}
+
+It is easy to check that each tensor separately is invariant under inversion. Our notation for the parameters is such that the subscript denotes the first two indices that are contracted via $\Pi$'s in numerical order, and the dimension of the operators appears in the superscript. We also use a different letters for tensors with a different number of $v$'s.\par
+ 
+As was mentioned in the introduction, the NRQED Lagrangian has four spin-independent operators. We will show in section \ref {relating_with_lit} that these can be related to the four operators above. It should be clear already  though that it is easier to tabulate the operators as was done here than to construct them from $\bm{E,D}$, and $\bm B$. 
+
+As was pointed out in \cite{Kobach:2017xkw} and discussed in section \ref{subsubsec:possible_color_struc},  there can be more than one color structure for operators constructed from four covariant derivatives. This is most easily seen when one constructs NRQCD operators and then consider the possible color structure, as we do in section \ref{relating_with_lit}. But we can anticipate the result by considering structures of the form $\bar h\left\{[iD^{\mu_i},iD^{\mu_j}],[iD^{\mu_k},iD^{\mu_l}]\right\}h$. It is a symmetric product of two $SU(3)$ color matrices that give rise to two possible color structures: a singlet and an octet. There can be three different structures $\bar h\left\{[iD^{\mu_1},iD^{\mu_2}],[iD^{\mu_3},iD^{\mu_4}]\right\}h$, $\bar h\left\{[iD^{\mu_1},iD^{\mu_3}],[iD^{\mu_2},iD^{\mu_4}]\right\}h$, and $\bar h\left\{[iD^{\mu_1},iD^{\mu_4}],[iD^{\mu_2},iD^{\mu_3}]\right\}h$, corresponding to the possible partitions of four indices into two pairs. 
+In order to form scalar operators, we need to multiply these structures by one of the four possible tensors on the right hand side of equation (\ref{eqn:chap4_SI_decomp}): $\Pi^{\mu_1\mu_2}\Pi^{\mu_3\mu_4}$, $\Pi^{\mu_1\mu_3}\Pi^{\mu_2\mu_4}$, $\Pi^{\mu_1\mu_4}\Pi^{\mu_2\mu_3}$, and $\Pi^{\mu_1\mu_4}v^{\mu_2} v^{\mu_3}$. We find only two linearly independent combinations from all of the contractions, namely, $a_{13}^{(7)} - a_{14}^{(7)}$, and $b^{(7)}$. We confirm this result in section \ref{eqn:dim_7_SI_mat_decomp}. We conclude that we can form only two such operators with two possible color structures each. Including the possible color structures, there are in total six possible NRQCD (HQET) operators.  
+\subsection{Dimension eight operators}\label{sec:dim_8_SI}
+We have five covariant derivatives, so we must have an odd number of $v$'s. We cannot have five $v$'s and there is only one tensor with 3 $v$'s: $\Pi^{\mu_1\mu_5}v^{\mu_2} v^{\mu_3}v^{\mu_4}$. As a result of the inversion symmetry, tensors with one $v$ must be of the form $v^{\mu_2}\Pi\,\Pi+v^{\mu_4}\Pi\,\Pi$ or  $v^{\mu_3}\Pi\,\Pi$.   All together we find seven possible tensors:
+\vspace{-0.5cm}
+\begin{eqnarray}\label{eqn:chap4_dim8_SI_decomp}
+&&\dfrac1{2M_H}\langle H |\bar h\, iD^{\mu_1}iD^{\mu_2}iD^{\mu_3}iD^{\mu_4}iD^{\mu_5}h|H\rangle=a_{12}^{(8)}\left(\Pi^{\mu_1\mu_2}\Pi^{\mu_3\mu_5}v^{\mu_4}+\Pi^{\mu_1\mu_3}\Pi^{\mu_4\mu_5}v^{\mu_2}\right)+\nonumber\\
+&&a_{13}^{(8)}\left(\Pi^{\mu_1\mu_3}\Pi^{\mu_2\mu_5}v^{\mu_4}+\Pi^{\mu_3\mu_5}\Pi^{\mu_1\mu_4}v^{\mu_2}\right)+a_{15}^{(8)}\left(\Pi^{\mu_1\mu_5}\Pi^{\mu_3\mu_4}v^{\mu_2}+\Pi^{\mu_1\mu_5}\Pi^{\mu_2\mu_3}v^{\mu_4}\right)+\nonumber\\
+&&b_{12}^{(8)}\Pi^{\mu_1\mu_2}\Pi^{\mu_4\mu_5}v^{\mu_3}+b_{14}^{(8)}\Pi^{\mu_1\mu_4}\Pi^{\mu_2\mu_5}v^{\mu_3}+b_{15}^{(8)}\Pi^{\mu_1\mu_5}\Pi^{\mu_2\mu_4}v^{\mu_3}+\nonumber\\
+&&c^{(8)}\Pi^{\mu_1\mu_5}v^{\mu_2}v^{\mu_3}v^{\mu_4}.
+\end{eqnarray}
+
+Our notion is same as in section \ref{subsec:dim7_SI_decomp}, but we used different letters for the coefficients of these tensor structures. \par
+We also need to consider the issue of possible color structures.  Multiple colors structures for a given operator arise from the anti-commutator of two color octets. For five covariant derivatives there are two possibilities of color octets: $[iD^{\mu_i},iD^{\mu_j}]$ and $[iD^{\mu_k},[iD^{\mu_l},iD^{\mu_m}]]$. If we combine them together we get two structures\footnote{A third possible structure $\bar h\left\{[iD^{\mu_i},iD^{\mu_j}],[iD^{\mu_l},[iD^{\mu_m},iD^{\mu_k}]]\right\}h$ is related to the first two by the Jacobi identity.}  $\bar h\left\{[iD^{\mu_i},iD^{\mu_j}],[iD^{\mu_k},[iD^{\mu_l},iD^{\mu_m}]]\right\}h$ and $\bar h\left\{[iD^{\mu_i},iD^{\mu_j}],[iD^{\mu_m},[iD^{\mu_k},iD^{\mu_l}]]\right\}h$. There are $ {5 \choose 2}\times 2=20$ such structures. We can also combine $\left\{[iD^{\mu_i},iD^{\mu_j}],[iD^{\mu_k},iD^{\mu_l}]\right\}$ with an anti-commutator of a fifth covariant derivative\footnote{using a commutators does not give a new structures since $[iD^{\mu_m},\left\{[iD^{\mu_i},iD^{\mu_j}],[iD^{\mu_k},iD^{\mu_l}]\right\}]=\left\{[iD^{\mu_i},iD^{\mu_j}],[iD^{\mu_m},[iD^{\mu_k},iD^{\mu_l}]]\right\}+\left\{[iD^{\mu_k},iD^{\mu_l}],[iD^{\mu_m},[iD^{\mu_i},iD^{\mu_j}]]\right\}$.}: $\bar h\left\{iD^{\mu_m},\left\{[iD^{\mu_i},iD^{\mu_j}],[iD^{\mu_k},iD^{\mu_l}]\right\}\right\}h$. There are $ {5 \choose 1}\times 3=15$ such structures.  Contracting each of the possible structure with the tensors on the left hand side of (\ref{eqn:chap4_dim8_SI_decomp}), we find  only one non-zero linear combination: $a^{(8)}_{12} - a^{(8)}_{15} - b^{(8)}_{14} + b^{(8)}_{15}$ from $\bar h\left\{iD^{\mu_m},\left\{[iD^{\mu_i},iD^{\mu_j}],[iD^{\mu_k},iD^{\mu_l}]\right\}\right\}h$. We will obtain the same result in section \ref{subsec:dim_8_SI_NRQCD}. Including the two possible color structures there are eight operators in total.   
+ 
+\section{Spin dependent matrix elements upto and including dimension 8}\label{sec:SD_mat_decomp}
+The spin dependent matrix elements are given by $\left\langle H\left|\bar{h} i D^{\mu_{1}} \ldots i D^{\mu_{n}} s^{\lambda} h\right| H\right\rangle$, where $n=\text{operator dimension-3}$. As we did in section \ref{sec:SI_mat_decomp}, the matrix elements are decomosed into nonperturbative constants multiplied by tensor structures that are allowed by symmetries. 
+\subsection{Dimension three operators}
+At dimension three the matrix element contains only one covariant derivative. The matrix element is decomposed into tensor structure with one Lorentz index, which is $v^{\mu_{\lambda}}$. Contracting the matrix element by four velocity we obtain $v\cdot s=0$ in the left hand side. Therefore, at dimension three there are no spin dependent matrix elements.
+\begin{eqnarray}
+\frac{1}{2 M_{H}}\left\langle H\left|\bar{h} s^{\lambda} h\right| H\right\rangle= 0
+\end{eqnarray}
+\subsection{Dimension four operators}
+The dimension four matrix element contains one covariant derivative. This provides two Lorentz indices. The matrix is then decomposed into $\Pi^{\mu_1 \lambda}$. This is because the contracting by $v_{\mu_1}$ and $v_{\lambda}$ yields zero. For the choice $v=(1,0,0,0)$, the $D^{\mu_1}$ is a space-like, which is due to $\bar{h}v\cdot D=0$. The matrix element with odd number of space-like derivatives gives zero due to the parity. Hence at the dimension four the spin dependent matrix element vanishes.
+\begin{eqnarray}
+\frac{1}{2 M_{H}}\left\langle H\left|\bar{h} i D^{\mu_{1}} s^{\lambda} h\right| H\right\rangle= 0
+\end{eqnarray}
+\subsection{Dimension five operators}
+The operator $\bar h\, iD^{\mu_1}iD^{\mu_2}s^\lambda h$ has three indices, all of which are orthogonal to $v$. As a result, we cannot use three $v$'s  or a product of one $\Pi$ and one $v$. There is only one possible structure:
+\vspace{-0.5cm}
+\begin{eqnarray}
+\frac{1}{2 M_{H}}\left\langle H\left|\bar{h} i D^{\mu_{1}} i D^{\mu_{2}} s^{\lambda} h\right| H\right\rangle= i \tilde{a}^{(5)} \epsilon^{\rho \mu_{1} \mu_{2} \lambda} v_{\rho}
+\end{eqnarray}
+
+The tensor $\epsilon^{\rho\mu_1\mu_2\lambda}v_{\rho}$ is antisymmetric under inversion as required.
+\subsection{Dimension six operators}
+There is only one possible tensor, a product of $v$ and $\epsilon$. Thus   
+\begin{eqnarray}\label{eqn:dim6_SD_tensor_decomp}
+\frac{1}{2 M_{H}}\left\langle H\left|\bar{h} i D^{\mu_{1}} i D^{\mu_{2}} i D^{\mu_{3}} s^{\lambda} h\right| H\right\rangle= i \tilde{a}^{(6)} v^{\mu_{2}} \epsilon^{\rho \mu_{1} \mu_{3} \lambda} v_{\rho}
+\end{eqnarray}
+Again the inversion symmetry is manifest.
+\subsection{Dimension seven operators}
+For the matrix elements of dimension seven spin-dependent operators there are  five independent tensors. One has 2 $v$'s and $\epsilon$ and four that have $\Pi$ and $\epsilon$. Thus 
+
+\begin{eqnarray}\label{eqn:dim7_SD_decomp}
+&&\dfrac1{2M_H}\langle H |\bar h\, iD^{\mu_1}iD^{\mu_2}iD^{\mu_3}iD^{\mu_4}s^\lambda h|H\rangle=\nonumber\\
+&&i\tilde a_{12}^{(7)}\left(\Pi^{\mu_1\mu_2}\epsilon^{\rho\mu_3\mu_4\lambda}v_{\rho}-\Pi^{\mu_4\mu_3}\epsilon^{\rho\mu_2\mu_1\lambda}v_{\rho}\right)+i\tilde a_{13}^{(7)}\left(\Pi^{\mu_1\mu_3}\epsilon^{\rho\mu_2\mu_4\lambda}v_{\rho}-\Pi^{\mu_4\mu_2}\epsilon^{\rho\mu_3\mu_1\lambda}v_{\rho}\right)+\nonumber\\
+&+&i\tilde a_{14}^{(7)}\Pi^{\mu_1\mu_4}\epsilon^{\rho\mu_2\mu_3\lambda}v_{\rho}+i\tilde a_{23}^{(7)}\Pi^{\mu_2\mu_3}\epsilon^{\rho\mu_1\mu_4\lambda}v_{\rho}+i\tilde b^{(7)}v^{\mu_2}v^{\mu_3}\epsilon^{\rho\mu_1\mu_4\lambda}v_{\rho},
+\end{eqnarray}
+where we have imposed the inversion symmetry by combining  tensors in the second line of equation (\ref{eqn:dim7_SD_decomp}) with the same non-perturbative parameters.
+
+Naively it might seem that there are two other possible independent tensors that involve $\Pi^{\lambda\mu_i}$, namely $\Pi^{\mu_1\lambda}\epsilon^{\rho\mu_2\mu_3\mu_4}v_{\rho}-\Pi^{\mu_4\lambda}\epsilon^{\rho\mu_3\mu_2\mu_1}v_{\rho}$ and $\Pi^{\mu_2\lambda}\epsilon^{\rho\mu_1\mu_3\mu_4}v_{\rho}-\Pi^{\mu_3\lambda}\epsilon^{\rho\mu_4\mu_2\mu_1}v_{\rho}$. But this would be an over-counting. The tensor $\Pi^{\mu\nu}\epsilon^{\sigma\alpha\beta\rho}v_\sigma$ has five indices orthogonal to $v$, but in four space-time dimensions there can be only three different indices orthogonal to $v$. Since $\alpha\neq\beta\neq\rho$ and $\mu=\nu$, it follows that three of the indices in the set  $\left\{\alpha, \beta,\rho,\mu,\nu\right\}$ are equal. Therefore, if $\lambda$ is equal to any $\mu_i$ it is also equal to some $\mu_j$ and hence $\mu_i=\mu_j$ and already included in the tensors of equation (\ref{eqn:dim7_SD_decomp}). 
+
+For the dimension seven spin-independent case one can construct operators with the same Lorentz structure but different color structure. We can check whether this is possible for the spin-dependent operators by contracting $\bar h\left\{[iD^{\mu_i},iD^{\mu_j}],[iD^{\mu_k},iD^{\mu_l}]\right\}h$ with the tensors on the right hand side of equation (\ref{eqn:dim7_SD_decomp}). We find that all of these vanish, so there are no such operators. We will find the same result in section \ref{subsecc:dim_7_SD_NRQCD}. 
+\subsection{Dimension eight operators}\label{sec:dim8_SD}
+For the matrix elements of the dimension eight spin-dependent operators we can have one tensor with 3 $v$'s, $v^{\mu_2}v^{\mu_3}v^{\mu_4}\epsilon^{\rho\mu_1\mu_5\lambda}v_\rho$, and tensors which are of the form $v\,\Pi\, \epsilon$. Following the discussion above, the $\Pi$'s should depend only on $\mu_i$. Once we fix $v^{\mu_i}$ to be $v^{\mu_2},v^{\mu_3}$, or $v^{\mu_4}$, there are four indices left, which gives six pairs $\{\mu_j,\mu_k\}$ for $\Pi$. Including the constraints from inversion symmetry, we find 
+\hspace{-15cm}{ 
+\begin{eqnarray}\label{eqn:chap4_SD8}
+&&\dfrac1{2M_B}\langle B|\bar h\, iD^{\mu_1}iD^{\mu_2}iD^{\mu_3}iD^{\mu_4}iD^{\mu_5}s^\lambda h|B\rangle=\nonumber\\
+&&i\tilde a_{12}^{(8)}\left(v^{\mu_3}\Pi^{\mu_1\mu_2}\epsilon^{\rho\mu_4\mu_5\lambda}v_{\rho}-v^{\mu_3}\Pi^{\mu_4\mu_5}\epsilon^{\rho\mu_2\mu_1\lambda}v_{\rho}\right)+
+i\tilde a_{14}^{(8)}\left(v^{\mu_3}\Pi^{\mu_1\mu_4}\epsilon^{\rho\mu_2\mu_5\lambda}v_{\rho}-v^{\mu_3}\Pi^{\mu_5\mu_2}\epsilon^{\rho\mu_4\mu_1\lambda}v_{\rho}\right)+\nonumber\\
+&+&i\tilde a_{15}^{(8)}v^{\mu_3}\Pi^{\mu_1\mu_5}\epsilon^{\rho\mu_2\mu_4\lambda}v_{\rho}+i\tilde a_{24}^{(8)}v^{\mu_3}\Pi^{\mu_2\mu_4}\epsilon^{\rho\mu_1\mu_5\lambda}v_{\rho}+\nonumber\\
+&+&i\tilde b_{13}^{(8)}\left(v^{\mu_2}\Pi^{\mu_1\mu_3}\epsilon^{\rho\mu_4\mu_5\lambda}v_{\rho}-v^{\mu_4}\Pi^{\mu_5\mu_3}\epsilon^{\rho\mu_2\mu_1\lambda}v_{\rho}\right)+
+i\tilde b_{14}^{(8)}\left(v^{\mu_2}\Pi^{\mu_1\mu_4}\epsilon^{\rho\mu_3\mu_5\lambda}v_{\rho}-v^{\mu_4}\Pi^{\mu_5\mu_2}\epsilon^{\rho\mu_3\mu_1\lambda}v_{\rho}\right)+\nonumber\\
+&+&i\tilde b_{15}^{(8)}\left(v^{\mu_2}\Pi^{\mu_1\mu_5}\epsilon^{\rho\mu_3\mu_4\lambda}v_{\rho}-v^{\mu_4}\Pi^{\mu_1\mu_5}\epsilon^{\rho\mu_3\mu_2\lambda}v_{\rho}\right)+
+i\tilde b_{34}^{(8)}\left(v^{\mu_2}\Pi^{\mu_3\mu_4}\epsilon^{\rho\mu_1\mu_5\lambda}v_{\rho}-v^{\mu_4}\Pi^{\mu_3\mu_2}\epsilon^{\rho\mu_5\mu_1\lambda}v_{\rho}\right)+\nonumber\\
+&+&i\tilde b_{35}^{(8)}\left(v^{\mu_2}\Pi^{\mu_3\mu_5}\epsilon^{\rho\mu_1\mu_4\lambda}v_{\rho}-v^{\mu_4}\Pi^{\mu_3\mu_1}\epsilon^{\rho\mu_5\mu_2\lambda}v_{\rho}\right)+
+i\tilde b_{45}^{(8)}\left(v^{\mu_2}\Pi^{\mu_4\mu_5}\epsilon^{\rho\mu_1\mu_3\lambda}v_{\rho}-v^{\mu_4}\Pi^{\mu_2\mu_1}\epsilon^{\rho\mu_5\mu_3\lambda}v_{\rho}\right)+\nonumber\\
+&+&i\tilde c^{(8)}v^{\mu_2}v^{\mu_3}v^{\mu_4}\epsilon^{\rho\mu_1\mu_5\lambda}v_{\rho}. 
+\end{eqnarray}}
+The possible multiple color structures are obtained by contracting the    \\
+As for the spin-independent case we can check if there are operators with the same Lorentz structure but different color structure by contracting  $\bar h\left\{[iD^{\mu_i},iD^{\mu_j}],[iD^{\mu_k},[iD^{\mu_l},iD^{\mu_m}]]\right\}h$, $\bar h\left\{[iD^{\mu_i},iD^{\mu_j}],[iD^{\mu_m},[iD^{\mu_k},iD^{\mu_l}]]\right\}h$, and $\bar h\left\{iD^{\mu_m},\left\{[iD^{\mu_i},iD^{\mu_j}],[iD^{\mu_k},iD^{\mu_l}]\right\}\right\}h$ with the tensors of the right hand side of equation (\ref{eqn:chap4_SD8}). We find six linearly-independent combinations, indicating that there will be six operators with two possible color structures. We will find the same result in section \ref{subsec:NRQCD_only_operators}.  Including these possible color structures, there seventeen NRQCD (HQET) operators in total. 
+\section{HQET operators}\label{relating_with_lit}
+Using the tensor decomposition of the spin independent and spin dependent matrix elements provided in the sections \ref{sec:SI_mat_decomp} and \ref{sec:SD_mat_decomp}, we now relate the matrix elements to HQET parameters. This list of HQET parameters are found in \cite{Mannel:2010wj}. As discussed in the section \ref{subsubsec:possible_color_struc}, the tree level matching of power corrections to inclusive $B$ decays are relevant to octet color structures. The list of HQET parameters provided in \cite{Mannel:2010wj} are relevant to these tree level operators. We list the color singlet operators along with the color octet operators in the section \ref{subsec:NRQCD_only_operators}. 
+\subsection{Spin independent operators}
+\subsubsection{Dimension five}\label{subsec:dim5_HQET_SI}
+\vspace{-0.2cm}
+The dimension five spin independent operator is defined by \cite{Mannel:1994kv}
+\begin{eqnarray}
+\frac{1}{2 M_{H}}\left\langle H(v)\left|\bar{Q}_{v} i D^{\mu_{1}} i D^{\mu_{2}} Q_{v}\right| H(v)\right\rangle=\frac{1}{3} \lambda_{1} \Pi^{\mu_{1} \mu_{2}}.
+\end{eqnarray}
+In  \cite{Mannel:2010wj} the matrix elements is defined as 
+\begin{equation}
+\dfrac1{2M_B}\langle B|\bar b_v\, iD^{\mu_1}iD^{\mu_2}b_v|B\rangle\,\Pi_{\mu_1\mu_2}=-\mu_\pi^2.
+\end{equation}
+Using the $\Pi^{\mu_1\mu_2}\Pi_{\mu_1\mu_2}=3$ and tensor decomposition of dimension five matrix element we obtain $-\mu_\pi^2=\lambda_1=3a^{(5)}$. It is important to note that the $\mu_{\pi}^2$ is not defined in the heavy quark limit. The parameter $\mu_{\pi}^2$ is defined using the full QCD $b$ fields \cite{Mannel:2010wj}. Following from this we obtain a relation between $\mu_{\pi}^2$ and $\lambda_1$, which contains $1/m_b$ corrections.
+\vspace{-0.3cm}
+\subsubsection{Dimension six}
+\vspace{-0.3cm}
+The dimension six spin independent matrix element is defined as \cite{Mannel:1994kv}
+\begin{equation}
+\dfrac1{2M_H}\langle H(v)|\bar Q_v\, iD^{\mu_1}iD^{\mu_2}iD^{\mu_3}Q_v|H(v)\rangle=\dfrac13\rho_1\Pi^{\mu_1\mu_3}v^{\mu_2}.
+\end{equation}
+while in  \cite{Mannel:2010wj} the same matrix element is defined as
+\begin{equation}
+\dfrac1{2M_B}\langle B|\bar h\, \Big[iD^{\mu_1},\big[iD^{\mu_2},iD^{\mu_3}\big]\Big]h|B\rangle\dfrac12\Pi_{\mu_1\mu_3}v_{\mu_2}=\rho_D^3.
+\end{equation}
+Comparing this to equation (\ref{eqn:chap4_dim6_SI_decomp}), we find that $\rho_D^3=\rho_1=3a^{(6)}$. 
+\vspace{-0.4cm}
+\subsubsection{Dimension seven}\label{eqn:dim_7_SI_mat_decomp}
+\vspace{-0.3cm}
+In the dimension seven there are four matrix elements \cite{Mannel:2010wj}
+\begin{eqnarray}
+2M_B\, m_1 &=& \langle B | \bar b_v \, i D_\rho i D_\sigma i D_\lambda iD_\delta 
+\,b_v | B \rangle\,\, \scalebox{1.1}{$\frac{1}{3}$} 
+\left(\Pi^{\rho \sigma}\Pi^{\lambda \delta} + 
+\Pi^{\rho \lambda}\Pi^{\sigma \delta}+\Pi^{\rho \delta}\Pi^{\sigma \lambda}\right) \nonumber\\
+\nonumber
+2M_B\, m_2 &=& \langle B | \bar b_v \, \big[ i D_\rho ,  i D_\sigma \big] 
+\big[ i D_\lambda ,  i D_\delta\big] \,b_v | B \rangle \:\Pi^{\rho\delta}v^\sigma 
+v^\lambda \\
+\nonumber
+2M_B\, m_3 &=& \langle B | \bar b_v \, \big[i D_\rho ,  i D_\sigma\big]
+\big[ iD_\lambda, iD_\delta\big] \,b_v|B\rangle\:\Pi^{\rho \lambda}\Pi^{\sigma \delta} \\
+2M_B\, m_4 &=& \langle B | \bar b_v \, \Big\lbrace i D_\rho , \Big[i D_\sigma ,
+\big[ i D_\lambda , i D_\delta\big]\Big]\Big \rbrace \,b_v | B \rangle \:
+\Pi^{\sigma \lambda}\Pi^{\rho \delta}
+\end{eqnarray}
+Using the tensor decomposition in equation (\ref{eqn:chap4_SI_decomp}) we find 
+\begin{equation}
+m_1=5\left[a_{12}^{(7)}+a_{13}^{(7)}+a_{14}^{(7)}\right],\,m_2=3b^{(7)},\, m_3=12\left[a_{13}^{(7)}-a_{14}^{(7)}\right],\,m_4=12\left[a_{12}^{(7)}-2a_{13}^{(7)}+a_{14}^{(7)}\right].
+\end{equation}
+\vspace{-0.5cm}
+\subsubsection{Dimension eight}\label{subsec:dim_8_SI_NRQCD}
+\vspace{-0.2cm}
+In \cite{Mannel:2010wj} seven spin-independent matrix elements are listed\footnote{The change $b_v\to b$ is presumably a typo in \cite{Mannel:2010wj}.} as:
+\vspace{-0.4cm}
+\begin{eqnarray}
+2M_B r_1 &=& \langle B | \bar b \,i  D_\rho\, (i v \cdot D)^3\, i  D^\rho \, b | B \rangle\nonumber \\
+2M_B r_2 &=& \langle B | \bar b \,i  D_\rho\, (i v \cdot D)\, i  D^\rho\, i  D_\sigma\, i  D^\sigma \, b | B \rangle\nonumber \\
+\nonumber
+2M_B r_3 &=& \langle B | \bar b \,i  D_\rho\, (i v \cdot D)\, i  D_\sigma\, i
+D^\rho\, i  D^\sigma \, b | B \rangle\nonumber \\  
+\nonumber
+\end{eqnarray}
+\begin{eqnarray}
+2M_B r_4 &=& \langle B | \bar b \,i  D_\rho\, (i v \cdot D)\, i  D_\sigma\, i
+D^\sigma\, i  D^\rho \, b | B \rangle\nonumber \\  
+\nonumber
+2M_B r_5 &=& \langle B | \bar b \,i  D_\rho\, i  D^\rho\,(i v \cdot D)\,  i
+D_\sigma\, i  D^\sigma \, b | B \rangle \\  
+\nonumber
+2M_B r_6 &=& \langle B | \bar b \,i  D_\rho\, i  D_\sigma\, (i v \cdot D)\, i
+D^\sigma\, i  D^\rho \, b | B \rangle \\  
+2M_B r_7 &=& \langle B | \bar b \,i  D_\rho\, i  D_\sigma\, (i v \cdot D)\, i
+D^\rho\, i  D^\sigma \, b | B \rangle
+\end{eqnarray}
+
+Comparison between these operators with our tensor decomposition in equation (\ref{eqn:chap4_dim8_SI_decomp}) yields
+\vspace{-0.2cm}
+\begin{eqnarray}
+&&r_1=3c^{(8)}\nonumber\\
+&&r_2=3\left[3a_{12}^{(8)}+a_{13}^{(8)}+a_{15}^{(8)}\right],\, r_3=3\left[a_{12}^{(8)}+3a_{13}^{(8)}+a_{15}^{(8)}\right],\, r_4=3\left[a_{12}^{(8)}+a_{13}^{(8)}+3a_{15}^{(8)}\right] \nonumber\\
+&&r_5=3\left[3b_{12}^{(8)}+b_{14}^{(8)}+b_{15}^{(8)}\right],\, r_6=3\left[b_{12}^{(8)}+b_{14}^{(8)}+3b_{15}^{(8)}\right],\, r_7=3\left[b_{12}^{(8)}+3b_{14}^{(8)}+b_{15}^{(8)}\right].
+\end{eqnarray}
+\subsection{Spin dependent operators}
+The dimension three and four matrix elements are zero. We find the first non zero matrix element at dimension five.
+\vspace{-0.4cm}
+\subsubsection{Dimension five}
+\vspace{-0.3cm}
+The dimension five spin dependent matrix element is defined as \cite{Mannel:1994kv}
+
+\begin{equation}
+\dfrac1{2M_H}\langle H(v)|\bar Q_v\, iD^{\mu_1}iD^{\mu_2}s^\lambda Q_v|H(v)\rangle=\dfrac12\lambda_2\,i\epsilon^{\rho\mu_1\mu_2\lambda}v_\rho,
+\end{equation}
+The same matrix element is defined as \cite{Mannel:2010wj}
+
+\begin{equation}
+\dfrac1{2M_B}\langle B|\bar b_v\, [iD^{\mu_1},iD^{\mu_2}](-i\sigma^{\mu_1\mu_2})b_v|B\rangle\,\Pi_{\mu_1\mu_2}=\mu_G^2.
+\end{equation}
+Using the relationship between $\sigma^{\mu\nu}$ and $s^{\lambda}$ defined in equation (\ref{trans3}), we found $\mu_G^2=3\lambda_2=-6\tilde{a}^{(5)}$. Similar to $\mu_{\pi}^2$ in section \ref{subsec:dim5_HQET_SI}, the relationship between $\mu_G^2$ and $\lambda_2$ receives corrections at order $1/m_b$.
+\subsubsection{Dimension six}
+\vspace{-0.3cm}
+The dimension six spin dependent matrix element is defined by \cite{Mannel:1994kv}
+
+\begin{equation}
+\dfrac1{2M_H}\langle H(v)|\bar Q_v\, iD^{\mu_1}iD^{\mu_2}iD^{\mu_3}s^\lambda Q_v|H(v)\rangle=\dfrac12\rho_2\,iv_\nu\epsilon^{\nu\mu_1\mu_3\lambda}v^{\mu_2},
+\end{equation}
+
+The same matrix element is defined in \cite{Mannel:2010wj} as
+
+\begin{equation}
+\dfrac1{2M_B}\langle B|\bar b_v\,\frac12\big\{iD^{\mu_1},\left [iD^{\mu_2},iD^{\mu_3}\right]\big\}(-i\sigma^{\alpha\beta})b_v|B\rangle\,\Pi_{\mu_1\alpha}\Pi_{\mu_3\beta}v_{\mu_2}=\rho_{LS}^3.
+\end{equation}
+Comparing these expressions with the tensor decomposition obtained in equation (\ref{eqn:dim6_SD_tensor_decomp}), we found $\rho_{LS}^3=3\rho_2=-6\tilde{a}^{(6)}$.
+\vspace{-0.3cm}
+\subsubsection{Dimension seven}\label{subsecc:dim_7_SD_NRQCD}
+\vspace{-0.3cm}
+In the dimension seven there are five matrix elements. They are defined as \cite{Mannel:2010wj}
+
+\begin{eqnarray}
+2M_B\, m_5 &=& \langle B | \bar b_v \, \big[ i D_\rho  , i D_\sigma\big] 
+\big[ i D_\lambda ,  i D_\delta\big]  \big (-i \sigma_{\alpha \beta}\big)\,b_v
+| B \rangle \,\,  \Pi^{\alpha \rho} \Pi^{\beta \delta} v^\sigma v^\lambda \nonumber\\
+\nonumber
+2M_B\, m_6 &=& \langle B | \bar b_v \, \big[ i D_\rho  , i D_\sigma \big] 
+\big[i D_\lambda , i D_\delta\big]  \big (-i \sigma_{\alpha \beta}\big)\,b_v 
+| B \rangle \,\, \Pi^{\alpha \sigma} \Pi^{\beta \lambda} \Pi^{\rho \delta}  \nonumber\\
+2M_B\, m_7 &=& \langle B | \bar b_v \,\Big \lbrace \big \lbrace i D_\rho,  
+i D_\sigma \big \rbrace ,\big[ i D_\lambda , i D_\delta \big] \Big\rbrace 
+\big (-i \sigma_{\alpha \beta}\big)\,b_v | B \rangle \,\, \Pi^{\sigma \lambda}
+\Pi^{\alpha \rho} \Pi^{\beta \delta} \nonumber\\
+2M_B\, m_8 &=&  \langle B | \bar b_v \,\Big \lbrace \big \lbrace
+i D_\rho ,  i D_\sigma \big \rbrace, \big[i D_\lambda  , i D_\delta \big] 
+\Big\rbrace \big (-i \sigma_{\alpha \beta}\big)\,b_v | B \rangle \: 
+\Pi^{\rho \sigma } \Pi^{\alpha \lambda} \Pi^{\beta \delta} \nonumber \\
+2M_B\, m_9 &=& \langle B | \bar b_v \, \bigg[ i D_\rho ,  \Big[ i D_\sigma ,
+\big[ i D_\lambda ,  i D_\delta \big]\Big]\bigg]  \big (-i \sigma_{\alpha \beta}\big) 
+\,b_v | B \rangle \,\, \Pi^{\rho \beta} \Pi^{\lambda \alpha} \Pi^{\sigma \delta}\,.
+\end{eqnarray}
+
+Comparing this result with the tensor decomposition in equation (\ref{eqn:dim7_SD_decomp}) we found 
+
+\begin{eqnarray}
+&&m_5=6\tilde{b}^{(7)},\,m_6=6\left[-2 \tilde{a}^{(7)}_{13} + \tilde{a}^{(7)}_{14} +\tilde{a}^{(7)}_{23}\right],\,m_7=-12\left[4 \tilde{a}^{(7)}_{12} -3 \tilde{a}^{(7)}_{14} +3\tilde{a}^{(7)}_{23}\right]\nonumber\\
+&&m_8=48\left[3 \tilde{a}^{(7)}_{12} - \tilde{a}^{(7)}_{14} +\tilde{a}^{(7)}_{23}\right],\,m_9=12\left[5 \tilde{a}^{(7)}_{12}-4 \tilde{a}^{(7)}_{14} -3 \tilde{a}^{(7)}_{14} +2\tilde{a}^{(7)}_{23}\right]
+\end{eqnarray}
+\subsubsection{Dimension eight}
+\vspace{-0.3cm}
+The dimension eight matrix elements are defined as \cite{Mannel:2010wj}
+\vspace{-0.5cm}
+\begin{eqnarray}
+\nonumber
+2M_B r_{8} &=& \langle B | \bar b \,i   D_\mu \, (i v \cdot D)^3\, i   D_\nu
+\, (-i \sigma^{\mu \nu })\,b | B \rangle \\  
+\nonumber
+2M_B r_{9} &=& \langle B | \bar b \,i   D_\mu \, (i v \cdot D)\, i   D_\nu
+\, i   D_\rho\, i   D^\rho \,(-i \sigma^{\mu \nu })\, b | B \rangle \\  
+\nonumber
+2M_B r_{10} &=& \langle B | \bar b \,i   D_\rho\, (i v \cdot D)\, i
+D^\rho\, i   D_\mu \, i   D_\nu  \,(-i \sigma^{\mu \nu })\, b | B \rangle \\
+\nonumber
+2M_B r_{11} &=& \langle B | \bar b \,i   D_\rho\, (i v \cdot D)\, i   D_\mu
+\, i   D^\rho\, i   D_\nu  \,(-i \sigma^{\mu \nu })\, b | B \rangle \\  
+\nonumber
+2M_B r_{12} &=& \langle B | \bar b \,i   D_\mu \, (i v \cdot D)\, i
+D_\rho\, i   D_\nu \, i   D^\rho \,(-i \sigma^{\mu \nu })\, b | B \rangle \\
+\nonumber
+2M_B r_{13} &=& \langle B | \bar b \,i   D_\rho\, (i v \cdot D)\, i   D_\mu
+\, i   D_\nu \, i   D^\rho \,(-i \sigma^{\mu \nu })\, b | B \rangle \\  
+\nonumber
+2M_B r_{14} &=& \langle B | \bar b \,i   D_\mu \, (i v \cdot D)\, i
+D_\rho\, i   D^\rho\, i   D_\nu  \,(-i \sigma^{\mu \nu })\, b | B \rangle \\
+\nonumber
+2M_B r_{15} &=& \langle B | \bar b \,i   D_\mu \, i   D_\nu \, (i v \cdot
+D)\, i   D_\rho\, i   D^\rho \,(-i \sigma^{\mu \nu })\, b | B \rangle \nonumber\\
+2M_B r_{16} &=& \langle B | \bar b \,i   D_\rho\, i   D_\mu \, (i v \cdot
+D)\, i   D_\nu \, i   D^\rho \,(-i \sigma^{\mu \nu })\, b | B \rangle \nonumber\\  
+2M_B r_{17} &=& \langle B | \bar b \,i   D_\mu \, i   D_\rho\, (i v \cdot
+D)\, i   D^\rho\, i   D_\nu  \,(-i \sigma^{\mu \nu })\, b | B \rangle \nonumber\\  
+2M_B r_{18} &=& \langle B | \bar b \,i   D_\rho\, i   D_\mu \, (i v \cdot D)\, i   D^\rho\, i   D_\nu  \,(-i \sigma^{\mu \nu })\, b | B \rangle \,.
+\end{eqnarray}
+
+Comparing this with the dimension eight matrix tensor decomposition, which is given in equation (\ref{eqn:chap4_SD8}), we found
+
+\begin{eqnarray}
+&&r_8=6\tilde{c}^{(8)}\nonumber\\
+&&r_9=-6\left[\tilde{b}_{14}^{(8)}+\tilde{b}_{15}^{(8)}-\tilde{b}_{34}^{(8)}-\tilde{b}_{35}^{(8)}-3\tilde{b}_{45}^{(8)}\right],\,
+r_{10}=6\left[3\tilde{b}_{13}^{(8)}+\tilde{b}_{14}^{(8)}-\tilde{b}_{15}^{(8)}+\tilde{b}_{34}^{(8)}-\tilde{b}_{35}^{(8)}\right],\,\nonumber\\
+&&r_{11}=6\left[\tilde{b}_{13}^{(8)}+3\tilde{b}_{14}^{(8)}+\tilde{b}_{15}^{(8)}+\tilde{b}_{34}^{(8)}-\tilde{b}_{45}^{(8)}\right],\, 
+r_{12}=6\left[-\tilde{b}_{13}^{(8)}+\tilde{b}_{15}^{(8)}+\tilde{b}_{34}^{(8)}+3\tilde{b}_{35}^{(8)}+\tilde{b}_{45}^{(8)}\right],\, \nonumber\\
+&&r_{13}=-6\left[\tilde{b}_{13}^{(8)}-\tilde{b}_{14}^{(8)}-3\tilde{b}_{15}^{(8)}-\tilde{b}_{35}^{(8)}+\tilde{b}_{45}^{(8)}\right],\, 
+r_{14}=6\left[\tilde{b}_{13}^{(8)}+\tilde{b}_{14}^{(8)}+3\tilde{b}_{34}^{(8)}+\tilde{b}_{35}^{(8)}+\tilde{b}_{45}^{(8)}\right],\, \nonumber\\
+&&r_{15}=6\left[3\tilde{a}_{12}^{(8)}-\tilde{a}_{15}^{(8)}+3\tilde{a}_{24}^{(8)}\right],\, 
+r_{16}=6\left[-2\tilde{a}_{12}^{(8)}+2\tilde{a}_{14}^{(8)}+3\tilde{a}_{15}^{(8)}\right],\, \nonumber\\
+&&r_{17}=6\left[2\tilde{a}_{12}^{(8)}+2\tilde{a}_{14}^{(8)}+3\tilde{a}_{24}^{(8)}\right],\, 
+r_{18}=6\left[3\tilde{a}_{14}^{(8)}+\tilde{a}_{15}^{(8)}+\tilde{a}_{24}^{(8)}\right],\, \nonumber\\
+\end{eqnarray}
+\section{NRQED and NRQCD operators}
+
+In the following section we will relate the NRQED and NRQCD operators to tensor decomposition provided in sections \ref{sec:SI_mat_decomp} and \ref{sec:SD_mat_decomp}. The NRQCD Lagrangian upto and including the order $1/M^3$ is provided in \cite{Manohar:1997qy}.
+\begin{eqnarray}\label{eqn:NRQCD_Lag_dim_7}
+&&{\cal L}_{\mbox{\scriptsize NRQCD}}^{\mbox{\scriptsize dim$\leq$7}} = \psi^\dagger
+  \bigg\{  i D_t  + c_2{\bm{D}^2 \over 2 M}+ 
+  c_F g{ \bm{\sigma}\cdot \bm{B} \over 2M}   
++ c_D g{\bm{D\cdot E}-\bm{E\cdot D} \over 8 M^2}  + i c_S g{ \bm{\sigma}
+    \cdot ( \bm{D} \times \bm{E} - \bm{E}\times \bm{D} ) \over 8 M^2}+  \nonumber\\
+    &&+ c_4{\bm{D}^4 \over 8 M^3} + i c_M g { \{ \bm{D}^i , ( \bm{D} \times \bm{B} - \bm{B}\times \bm{D} )^i \}\over 8 M^3}   + c_{W1}g {  \{ \bm{D}^2 ,  \bm{\sigma}\cdot \bm{B} \}  \over 8 M^3} - c_{W2}g {  \bm{D}^i \bm{\sigma}\cdot
+    \bm{B} \bm{D}^i \over 4 M^3 }+ \nonumber\\
+    && + c_{p^\prime p} g { \bm{\sigma} \cdot
+    \bm{D} \bm{B}\cdot \bm{D} + \bm{D}\cdot\bm{B} \bm{\sigma}\cdot \bm{D}
+    \over  8 M^3} +   c_{A1} g^2\,{ \left(\bm{B}_a^i\bm{B}_b^i - \bm{E}_a^i\bm{E}_b^i\right)\,T^aT^b \over 8 M^3} - c_{A2} g^2\,{\bm{E}_a^i\bm{E}_b^i\,T^aT^b
+    \over 16 M^3 }+    \nonumber\\ 
+    &&+  c_{A3} g^2\,{ \left(\bm{B}_a^i\bm{B}_b^i - \bm{E}_a^i\bm{E}_b^i\right)\delta^{ab} \over 8 M^3} - c_{A4} g^2\,{\bm{E}_a^i\bm{E}_b^i\,\delta^{ab}
+    \over 16 M^3 }\nonumber\\
+  &&
+     -c_{B1} g^2 {\bm{\sigma\cdot} (\bm{B}_a\bm{\times B}_b - \bm{E}_a\times\bm{E}_b)f^{abc}T^c \over 16 M^3}+ c_{B2} g^2 {\bm{\sigma\cdot} (\bm{E}_a\times\bm{E}_b)f^{abc}T^c \over 16 M^3}
+       \bigg\} \psi.
+   \end{eqnarray}
+
+The operators in the last line are specific to NRQCD they do not appear in the NRQED. Also, in NRQED the operators corresponding to coefficients $c_{A1}$ and $c_{A3}$ ($c_{A2}$ and $c_{A4}$) are identical.\par
+The NRQED Lagrangian at order $1/M^4$ (dimension eight) is given by 
+\vspace{-0.4cm}
+\begin{align}\label{eqn:chap4_NRQED_Lag}
+&{\cal L}_{\mbox{\scriptsize NRQED}}^{\mbox{\scriptsize dim$=$8}} = \psi^\dagger
+  \bigg\{ 
+c_{X1}g { [ \bm{D}^2 , \bm{D}\cdot \bm{E} + \bm{E}\cdot\bm{D} ] \over M^4 }
++ c_{X2}g { \{ \bm{D}^2 , [\bm{\partial}\cdot\bm{E}] \} \over M^4 }
++ c_{X3}g { [\bm{\partial}^2 \bm{\partial}\cdot\bm{E}] \over M^4 } \nonumber\\
+&\quad 
++ i c_{X4}g^2 { \{ \bm{D}^i , [\bm{E}\times\bm{B}]^i \} \over M^4 } 
++ ic_{X5} g { \bm{D}^i \bm{\sigma}\cdot ( \bm{D}\times\bm{E} - \bm{E}\times\bm{D} )\bm{D}^i   \over M^4} 
++ ic_{X6} g { \epsilon^{ijk} \sigma^i \bm{D}^j [\bm{\partial}\cdot\bm{E}] \bm{D}^k \over M^4} 
+\nonumber\\
+&\quad
++ c_{X7} g^2 { \bm{\sigma}\cdot\bm{B} [\bm{\partial}\cdot\bm{E}] \over M^4} 
++ c_{X8} g^2 { [\bm{E}\cdot\bm{\partial} \bm{\sigma}\cdot\bm{B} ] \over M^4}
++ c_{X9} g^2 { [\bm{B}\cdot\bm{\partial} \bm{\sigma}\cdot\bm{E} ] \over M^4} 
+\nonumber\\
+&\quad
++ c_{X10} g^2 { [\bm{E}^i \bm{\sigma}\cdot\bm{\partial} \bm{B}^i] \over M^4}
++ c_{X11} g^2 { [\bm{B}^i \bm{\sigma}\cdot\bm{\partial} \bm{E}^i] \over M^4} 
++ c_{X12} g^2 { \bm{\sigma}\cdot \bm{E}\times [{\partial_t}\bm{E}-\bm{\partial}\times\bm{B} ] \over M^4} \bigg\} \psi  \,.
+\end{align}
+Some of these operators need to be rewritten in a form appropriate for NRQCD operators, e.g.  not assuming that $\bm{E}$ and $\bm{B}$ commute.  We will do that below. 
+
+The general procedure we will follow is to take a  general NRQCD (NRQED) operator of the form $\psi^\dagger O\psi$ where $O$ is written in terms of $\bm {D},\bm{E},\bm{B}$. We change $\psi\to h$ and $\psi^\dagger\to \bar h$ and write $O$ in terms of covariant derivatives $iD^\mu$ contracted with $\Pi$ and $v$. The matrix element of the resulting operator can be written in terms of the  parameters of section \ref{sec:gen_method}. The utility of this method is that given two NRQCD operators we can immediately determine if they are linearly independent, based on the linear combination of parameters that corresponds to each operator. Possible multiple color factors for operators with the same Lorentz structure are considered separately.  We will illustrate this procedure in detail below. 
+\subsection{Spin independent operators}
+\subsubsection{Dimension four}
+\vspace{-0.2cm}
+In equation (\ref{eqn:NRQCD_Lag_dim_7}) there is one operator with time-like cavariant derivative ($\psi^{\dagger}iD_{t}\psi$) at dimension four. The corresponding HQET operator is $\bar{h}iv\cdot Dh$. Therefore, the matrix element vanishes at dimension four.
+\vspace{-0.5cm}
+\subsubsection{Dimension five}
+\vspace{-0.2cm}
+At dimension five, there is only one spin independent operator in equation (\ref{eqn:NRQCD_Lag_dim_7}), which is $\psi^{\dagger}\bm{D}^2\psi$. This operator can be written as $iD^{\mu_1}iD^{\mu_2}\Pi^{\mu_1\mu_2}$. Using this operator and changing $\psi^{\dagger}\to\bar{h}$ and $\psi\to h$ we found
+\begin{equation}
+\psi^{\dagger} D^{2} \psi \rightarrow \frac{1}{2 M_{H}}\left\langle H\left|\bar{h} i D^{\mu_{1}} i D^{\mu_{2}} \Pi_{\mu_{1} \mu_{2}} h\right| H\right\rangle= 3 a^{(5)}
+\end{equation}
+\vspace{-1.5cm}
+\subsubsection{Dimension six}
+\vspace{-0.2cm}
+At dimension six, there is only one spin independent operator in equation (\ref{eqn:NRQCD_Lag_dim_7}), which is $
+g \psi^{\dagger}(\bm{D} \cdot \bm{E}-\bm{E} \cdot \bm{D}) \psi$. By re-writing this equation as $-v_{\mu_{2}} \Pi_{\mu_{1} \mu_{3}}\left[i D^{\mu_{1}},\left[i D^{\mu_{2}}, i D^{\mu_{3}}\right]\right]$ and changing $\psi^{\dagger}\to \bar{h}$ and $\psi\to h$ we found
+\begin{eqnarray}
+-\psi^{\dagger} v_{\mu_{2}} \Pi_{\mu_{1} \mu_{3}}\left[i D^{\mu_{1}},\left[i D^{\mu_{2}}, i D^{\mu_{3}}\right]\right] \psi \rightarrow-\frac{1}{2 M_{H}}\left\langle H\left|\bar{h} v_{\mu_{2}} \Pi_{\mu_{1} \mu_{3}}\left[i D^{\mu_{1}},\left[i D^{\mu_{2}}, i D^{\mu_{3}}\right]\right] h\right| H\right\rangle=- 6 a^{(6)}\nonumber\\
+\end{eqnarray} 
+
+\subsubsection{Dimension seven}
+\vspace{-0.3cm}
+In equation (\ref{eqn:NRQCD_Lag_dim_7}) there are six spin independent operators at dimension seven. They are $\psi^{\dagger} \bm{D}^{4} \psi$, $g \psi^{\dagger}\left\{\bm{D}^{i}(\bm{D} \times\right.\left.\bm{B}-\bm{B} \times \bm{D})^{i}\right\} \psi$, $g^{2} \psi^{\dagger}\left(\bm{B}_{a}^{i} \bm{B}_{b}^{i}-\bm{E}_{a}^{i} \bm{E}_{b}^{i}\right) T^{a} T^{b} \psi$, 
+$-g^{2} \psi^{\dagger} \bm{E}_{a}^{i} \bm{E}_{b}^{i} T^{a} T^{b} \psi$,\\ $g^{2} \psi^{\dagger}\left(\bm{B}_{a}^{i} \bm{B}_{b}^{i}-\bm{E}_{a}^{i} \bm{E}_{b}^{i}\right) \delta^{a b} \psi$. Changing the $\psi^{\dagger}\to \bar{h}$ and $\psi\to h$ we found
+\vspace{-0.1cm}
+
+\begin{eqnarray}
+&&\psi^\dagger \bm{D^4} \psi\to\dfrac1{2M_H}\langle H |\bar h\,  iD^{\mu_1}iD^{\mu_2} iD^{\mu_3}iD^{\mu_4} h|H\rangle\Pi_{\mu_1\mu_2}\Pi_{\mu_3\mu_4}=3\left(3a^{(7)}_{12} + a^{(7)}_{13} + a^{(7)}_{14}\right),\nonumber\\
+&&\psi^\dagger\, g\{ \bm{D}^i , ( \bm{D} \times \bm{B} - \bm{B}\times \bm{D} )^i \} \psi\to\dfrac1{2M_H}\langle H |\bar h\, \big\{ iD^{\mu_1},\left[iD^{\mu_2},\left[ iD^{\mu_3},iD^{\mu_4}\right]\,\right]\big\} h|H\rangle\Pi_{\mu_1\mu_4}\Pi_{\mu_2\mu_3}\nonumber\\&&=12\left(a^{(7)}_{12} -2 a^{(7)}_{13} + a^{(7)}_{14}\right),\nonumber\\
+&&g^2\psi^\dagger\left(\bm{B}_a^i\bm{B}_b^i - \bm{E}_a^i\bm{E}_b^i\right)\,T^aT^b \psi,g^2\psi^\dagger\left(\bm{B}_a^i\bm{B}_b^i - \bm{E}_a^i\bm{E}_b^i\right)\,\delta^{ab} \psi\to\nonumber\\
+&&-\frac12\dfrac1{2M_H}\langle H |\bar h\,\left[iD^{\mu_1},iD^{\mu_2}\right]\left[ iD^{\mu_3},iD^{\mu_4}\right] h|H\rangle g_{\mu_1\mu_3}g_{\mu_2\mu_4}=
+3\left(-2a^{(7)}_{13} +2 a^{(7)}_{14} +b^{(7)}\right),
+\nonumber\\
+&&-g^2\psi^\dagger\bm{E}_a^i\bm{E}_b^i\,T^aT^b\psi,\, -g^2\psi^\dagger\bm{E}_a^i\bm{E}_b^i\,\delta^{ab}\psi
+\to-\dfrac1{2M_H}\langle H |\bar h\,\left[iD^{\mu_1},iD^{\mu_2}\right]\left[ iD^{\mu_3},iD^{\mu_4}\right] h|H\rangle g_{\mu_1\mu_3}v_{\mu_2}v_{\mu_4}\nonumber\\
+&&=-3b^{(7)}.\nonumber\\
+\vspace{2cm}
+\end{eqnarray}
+
+All these linear combinations of $a_{12}^{(7)}, a_{13}^{(7)}, a_{14}^{(7)}$, and $ b^{(7)}$ are independent of each other. As shown in the section \ref{eqn:chap4_SI_decomp}, there are two operators with different color structures that has same Lorentz structure. The linear combinations for those two operators are $a_{12}^{(7)}, a_{13}^{(7)},\text{ and } a_{14}^{(7)}$.
+\vspace{-1.5cm}
+\subsubsection{Dimension eight}\label{subsec:dim_8_HQET_SI}
+\vspace{-0.2cm}
+The NRQED Lagrangian in equation (\ref{eqn:chap4_NRQED_Lag}) provide four spin independent operators at dimension eight. These operators can be generalized to the NRQCD by using $g \psi^{\dagger}\left\{D^{2},[\bm{\partial} \cdot \bm{E}]\right\} \psi \to g \psi^{\dagger}\left\{\bm{D}^{2},\left[\bm{D}^{i}, \bm{E}^{i}\right]\right\} \psi$ and $g \psi^{\dagger}\left[\bm{\partial}^{2} \bm{\partial} \cdot \bm{E}\right] \psi \to g\psi^{\dagger}[\bm{D}^i,[D^i,[\bm{D}^j,\bm{E}^j]]]\psi$. The operator $g^2\psi^{\dagger}\lbrace i\bm{D}^i,[\bm{E}\times\bm{B}]^i\rbrace\psi$ provides color octet and singlet structures, and they are $\frac{1}{2} g^{2} \psi^{\dagger}\left\{i \bm{D}^{i}, \epsilon^{i j k} \bm{E}_{a}^{j} \bm{B}_{b}^{k}\left\{T^{a}, T^{b}\right\}\right\} \psi$ and $g^{2} \psi^{\dagger}\left\{i \bm{D}^{i}, \epsilon^{i j k} \bm{E}_{a}^{j} \bm{B}_{b}^{k} \delta^{a b}\right\} \psi$. By replacing the $\psi^{\dagger}\to \bar{h}$ and $\psi\to h$ we obtain:
+
+\begin{eqnarray}\label{eqn:chap4_NRQED_dim8__SI_op}
+&&g\psi^\dagger  [ \bm{D}^2 ,  \{\bm{D}^i, \bm{E}^i\} ] \psi\to-\dfrac1{2M_H}\langle H |\bar h\,  [iD^{\mu_1}iD^{\mu_2},\{ iD^{\mu_3},[iD^{\mu_4},iD^{\mu_5}] \}]h|H\rangle v_{\mu_4}\Pi_{\mu_1\mu_2}\Pi_{\mu_3\mu_5}\nonumber\\
+&&=-6\left(3b^{(8)}_{12} + b^{(8)}_{14} + b^{(8)}_{15}\right),\nonumber
+\end{eqnarray}
+\begin{eqnarray}
+&&g\psi^\dagger  \{ \bm{D}^2 , [\bm{D}^i, \bm{E}^i]\} \psi\to-\dfrac1{2M_H}\langle H |\bar h\,  \{iD^{\mu_1}iD^{\mu_2},[ iD^{\mu_3},[iD^{\mu_4},iD^{\mu_5}] ]\}h|H\rangle v_{\mu_4}\Pi_{\mu_1\mu_2}\Pi_{\mu_3\mu_5}\nonumber\\
+&&=-6\left(6a^{(8)}_{12} +2 a^{(8)}_{13} + 2a^{(8)}_{15}-3b^{(8)}_{12} - b^{(8)}_{14} - b^{(8)}_{15}\right),\nonumber\\
+&&\psi^\dagger\, g [\bm{D}^i, [\bm{D}^i, [\bm{D}^j,\bm{E}^j]]] \psi\to\nonumber\\
+&&\to -\dfrac1{2M_H}\langle H |\bar h\,  [iD^{\mu_1},[iD^{\mu_2},[ iD^{\mu_3},[iD^{\mu_4},iD^{\mu_5}] ]]]h|B\rangle v_{\mu_4}\Pi_{\mu_1\mu_2}\Pi_{\mu_3\mu_5}\nonumber\\
+&&=-6\left(8a^{(8)}_{12} +4 a^{(8)}_{13} + 8a^{(8)}_{15}-5b^{(8)}_{12} - 3b^{(8)}_{14} - 7b^{(8)}_{15}\right),\nonumber\\
+&&\dfrac{g^2}{2}\psi^\dagger\,  \{i \bm{D}^i , \epsilon^{ijk}\bm{E}_a^j\bm{B}_b^k\,\{T^a,T^b\}\}\psi,\,g^2\psi^\dagger\,  \{i \bm{D}^i , \epsilon^{ijk}\bm{E}_a^j\bm{B}_b^k\,\delta^{ab}\}\psi\to\nonumber\\
+&&\to\dfrac12\dfrac1{2M_H}\langle H |\bar h\,  \{iD^{\mu_1},\{[iD^{\mu_2}, iD^{\mu_3}],[iD^{\mu_4},iD^{\mu_5}] \}\}h|B\rangle v_{\mu_2}\Pi_{\mu_1\mu_4}\Pi_{\mu_3\mu_5}\nonumber\\
+&&=6\left(a^{(8)}_{12} -a^{(8)}_{15}- b^{(8)}_{14} + b^{(8)}_{15}\right).
+\end{eqnarray}
+
+The NRQCD contains three other operators that are absent in NRQED. We will list these operators in section \ref{subsec:NRQCD_only_operators}.
+
+\subsection{Spin dependent operators}
+
+For the Levi-Civita tensor we used the sign convention $\epsilon^{0123}=-1$ and $\epsilon_{0123}=+1$. Therefore, the three dimension operators such as $\epsilon_{i j k} A^{i} B^{j} C^{k}$ are generalized to the four dimension as $-\epsilon_{0 \mu \nu \alpha} A^{\mu} B^{\nu} C^{\mu}$. The overall minus sign arises due to three space-like contractions. For example, the covariant derivative $D^{\mu}=(D^0,-\bm{D})$ provides a overall minus sign when considering a triple product of space-like derivatives.
+\vspace{-0.5cm}
+\subsubsection{Dimension five}
+\vspace{-0.2cm}
+At dimension five we find the first non vanishing spin dependent operator in equation (\ref{eqn:NRQCD_Lag_dim_7}), and it is given by $g \psi^{\dagger} \bm{\sigma} \cdot \bm{B} \psi$. This operator can be rewritten as $-\frac{i}{2} \psi^{\dagger} \epsilon^{i j k} \bm{\sigma}^{i}\left[i \bm{D}^{j}, i \bm{D}^{k}\right] \psi$. The generalization of the three dimensional tripple product to four dimension provides an additional minus sign. As a result, the dimension five spin dependent matrix element is written as $\epsilon^{i j k} \sigma^{i}\left[i \bm{D}^{j}, i \bm{D}^{k}\right] \rightarrow-\epsilon_{\rho \lambda \mu_{1} \mu_{2}} v^{\rho} s^{\lambda}\left[i D^{\mu_{1}}, i D^{\mu_{2}}\right]$. Changing the $\psi^{\dagger}\to \bar{h}$ and $\psi\to h$ provides:
+\begin{eqnarray}
+g \psi^{\dagger} \bm{\sigma} \cdot \bm{B} \psi \rightarrow \frac{1}{2 M_{H}} \frac{1}{2} i \epsilon_{\rho \mu_{1} \mu_{2} \lambda} v^{\rho}\left\langle H\left|\bar{h} s^{\lambda}\left[i D^{\mu_{1}}, i D^{\mu_{2}}\right] h\right| H\right\rangle= 6 \tilde{a}^{(5)}
+\end{eqnarray}
+\subsubsection{Dimension six}
+\vspace{-0.2cm}
+In equation (\ref{eqn:NRQCD_Lag_dim_7}), there is only one dimension six spin dependent operator, which is $i g \psi^{\dagger} \bm{\sigma} \cdot(\bm{D} \times \bm{E}-\bm{E} \times \bm{D}) \psi$. As shown in the above, we construct the corresponding HQET matrix element as follows:
+\begin{align}
+&i g \psi^{\dagger} \bm{\sigma} \cdot(\bm{D} \times \bm{E}-\bm{E} \times \bm{D}) \psi \rightarrow-\frac{1}{2 M_{H}} i \epsilon_{\rho \lambda \mu_{1} \mu_{3}} v^{\rho} v_{\mu_{2}}\left\langle H\left|\bar{h} s^{\lambda}\left\{i D^{\mu_{1}},\left[i D^{\mu_{2}}, i D^{\mu_{3}}\right]\right\} h\right| H\right\rangle=\nonumber\\
+&=-12 \tilde{a}^{(6)}
+\end{align}
+\subsubsection{Dimension seven}
+\vspace{-0.2cm}
+In equation (\ref{eqn:NRQCD_Lag_dim_7}), there are five spin dependent operators at dimension five. They are $g \psi^{\dagger}\left\{\bm{D}^{2}, \bm{\sigma} \cdot \bm{B}\right\} \psi, g \psi^{\dagger} \bm{D}^{i} \bm{\sigma} \cdot \bm{B} \bm{D}^{i} \psi$, $g\psi^{\dagger} \bm{\sigma} \cdot \bm{D} \bm{B} \cdot \bm{D}+\bm{D} \cdot \bm{B} \bm{\sigma} \cdot \bm{D} \psi$, $g^{2} \psi^{\dagger} \bm{\sigma} \cdot\left(\bm{B}_{a} \times \bm{B}_{b}\right) f^{a b c} T^{c} \psi$, and $g^{2} \psi^{\dagger} \sigma \cdot\left(\bm{E}_{a} \times \bm{E}_{b}\right) f^{a b c} T^{c} \psi$. At dimension seven there are no operators with multiple color structures. Changing the $\psi^{\dagger}\to \bar{h}$ and $\psi\to h$ provides:
+\begin{eqnarray}
+&&g \psi^\dagger \{ \bm{D}^2 ,  \bm{\sigma}\cdot \bm{B} \}\psi\to  \dfrac1{2M_H}\dfrac12i\epsilon_{\rho\mu_3\mu_4\lambda}v^\rho \Pi_{\mu_1\mu_2}\langle H |\bar h\,s^\lambda \{iD^{\mu_1}iD^{\mu_2},[iD^{\mu_3},iD^{\mu_4}]\}h|H\rangle=\nonumber\\
+&&=12 \left(3 \tilde{a}_{12}^{(7)} -\tilde{a}_{14}^{(7)} + \tilde{a}_{23}^{(7)}\right),\nonumber\\
+%
+&&g\psi^\dagger \bm{D}^i \bm{\sigma}\cdot \bm{B} \bm{D}^i\psi\to  \dfrac1{2M_H}\dfrac12i\epsilon_{\rho\mu_2\mu_3\lambda}v^\rho \Pi_{\mu_1\mu_4}\langle H |\bar h\,s^\lambda iD^{\mu_1}[iD^{\mu_2},iD^{\mu_3}]iD^{\mu_4}\,h|H\rangle=\nonumber\\
+&&=6 \left(-2 \tilde{a}_{12}^{(7)} +2\tilde{a}_{13}^{(7)} +3 \tilde{a}_{14}^{(7)}\right),\nonumber\\
+&&g\psi^\dagger  \bm{\sigma} \cdot\bm{D} \bm{B}\cdot \bm{D} + \bm{D}\cdot\bm{B} \bm{\sigma}\cdot \bm{D}\psi\to  -\dfrac1{2M_H}\dfrac12i\epsilon_{\rho\mu_1\mu_2\mu_3}v^\rho \Pi_{\lambda\mu_4}\langle H |\bar h\,s^\lambda iD^{\mu_1}[iD^{\mu_2},iD^{\mu_3}]iD^{\mu_4}\,h|H\rangle\nonumber\\
+&&-\dfrac1{2M_H}\dfrac12i\epsilon_{\rho\mu_4\mu_2\mu_3}v^\rho \Pi_{\lambda\mu_1}\langle H |\bar h\,s^\lambda iD^{\mu_1}[iD^{\mu_2},iD^{\mu_3}]iD^{\mu_4}\,h|H\rangle=-12 \left( \tilde{a}_{12}^{(7)} -\tilde{a}_{13}^{(7)} + \tilde{a}_{14}^{(7)}\right),\nonumber\\
+&&g^2\psi^\dagger \bm{\sigma\cdot} (\bm{B}_a\times\bm{B}_b)f^{abc}T^c \psi\to  \dfrac1{2M_H}\dfrac12i\epsilon_{\rho\mu_1\mu_2\mu_4}v^\rho \Pi_{\lambda\mu_3}\langle H |\bar h\,s^\lambda[iD^{\mu_1},iD^{\mu_2}][iD^{\mu_3},iD^{\mu_4}]\,h|H\rangle=\nonumber\\
+&&=6 \left(2 \tilde{a}_{13}^{(7)} -\tilde{a}_{14}^{(7)} - \tilde{a}_{23}^{(7)}\right),\nonumber\\
+%
+&&g^2\psi^\dagger \bm{\sigma\cdot}( \bm{E}_a\times\bm{E}_b)f^{abc}T^c \psi\to  \dfrac1{2M_H}\i\epsilon_{\rho\mu_2\mu_4\lambda}v^\rho v_{\mu_1}v_{\mu_3}\langle H |\bar h\,s^\lambda[iD^{\mu_1},iD^{\mu_2}][iD^{\mu_3},iD^{\mu_4}]\,h|H\rangle=\nonumber\\
+&&=-6 \tilde{b}^{(7)}.
+\end{eqnarray}
+\subsubsection{Dimension eight}\label{subsubsec:Dim8_SD_NRQED_op}
+\vspace{-0.2cm}
+There are eight spin-dependent dimension-eight operators in the $1/M^4$ NRQED Lagrangian in equation (\ref{eqn:chap4_NRQED_Lag}).  For the NRQCD operators we rewrite $\psi^\dagger\epsilon^{ijk} \sigma^i \bm{D}^j [\bm{\partial}\cdot\bm{E}] \bm{D}^k\psi$ as $\psi^\dagger \epsilon^{ijk} \sigma^i \bm{D}^j [\bm{D}^l,\bm{E}^l] \bm{D}^k\psi$. The operator $g^2\psi^\dagger\bm{\sigma}\cdot\bm{B} [\bm{\partial}\cdot\bm{E}]\psi$ corresponds to two possible NRQCD operators $\frac12g^2\psi^\dagger\{\bm{\sigma}\cdot\bm{B}_aT^a, [\bm{D}^i,\bm{E}^i]_bT^b\}\psi$ and $g^2\psi^\dagger\bm{\sigma}\cdot\bm{B}_a [\bm{D}^i,\bm{E}^i]_a\psi$. The notation is such that $[\bm{D}^i,\bm{E}^i]_a=\bm{\nabla}\cdot\bm{E}_a+gf^{abc}\bm{A}_b\cdot\bm{E}_c$  \cite{Kobach:2017xkw}. Similarly $g^2\psi^\dagger[\bm{E}\cdot\bm{\partial} \bm{\sigma}\cdot\bm{B}]\psi$ corresponds to  $\frac12g^2\psi^\dagger\{\bm{E}^i_aT^a,[\bm{D}^i,\bm{\sigma}\cdot\bm{B}]_bT^b\}\psi$ and $g^2\psi^\dagger\bm{E}^i_a [\bm{D}^i,\bm{\sigma}\cdot\bm{B}]_a\psi$, $g^2\psi^\dagger[\bm{B}\cdot\bm{\partial} \bm{\sigma}\cdot\bm{E}]\psi$ corresponds to  $\frac12g^2\psi^\dagger\{\bm{B}^i_aT^a,[\bm{D}^i,\bm{\sigma}\cdot\bm{E}]_bT^b\}\psi$ and $g^2\psi^\dagger\bm{B}^i_a [\bm{D}^i,\bm{\sigma}\cdot\bm{E}]_a\psi$, $g^2\psi^\dagger[\bm{E}^i \bm{\sigma}\cdot\bm{\partial} \bm{B}^i]\psi$ corresponds to  $\frac12g^2\psi^\dagger\{\bm{E}^i_aT^a,[\bm{\sigma}\cdot\bm{D}, \bm{B}^i]_bT^b\}\psi$ and $g^2\psi^\dagger\bm{E}^i_a[\bm{\sigma}\cdot\bm{D}, \bm{B}^i]_a\psi$, and $g^2\psi^\dagger[\bm{B}^i \bm{\sigma}\cdot\bm{\partial} \bm{E}^i]\psi$ corresponds to  $\frac12g^2\psi^\dagger\{\bm{B}^i_aT^a,[\bm{\sigma}\cdot\bm{D}, \bm{E}^i]_bT^b\}\psi$ and $g^2\psi^\dagger\bm{B}^i_a[\bm{\sigma}\cdot\bm{D}, \bm{E}^i]_a\psi$. The last operator in equation (\ref{eqn:chap4_NRQED_Lag}) contains two parts: $\bm{\sigma}\cdot \bm{E}\times [{\partial_t}\bm{E}]$ and $-\bm{\sigma}\cdot \bm{E}\times[\bm{\partial}\times\bm{B} ]$. The second part can be expressed in terms of other operators in equation (\ref{eqn:chap4_NRQED_Lag}), so we will not consider it below. The first part corresponds to two possible NRQCD operators $\frac12g^2\psi^\dagger\epsilon^{ijk}\bm{\sigma}^i\bm{E}^j_a\, [{D_t},\bm{E}^k]_b\,\{T^a,T^b\}\psi$ and $g^2\psi^\dagger\epsilon^{ijk}\bm{\sigma}^i\bm{E}^j_a\, [{D_t},\bm{E}^k]_a\,\psi$. Changing $\psi\to h$, $\psi^\dagger\to \bar h$ we get 
+\vspace{-0.5cm}
+\begin{eqnarray}\label{eqn:chap4_dim8_SD_NRQED_op}
+&&ig \psi^\dagger  \bm{D}^i \bm{\sigma}\cdot ( \bm{D}\times\bm{E} - \bm{E}\times\bm{D} )\bm{D}^i\psi\to\nonumber\\
+&&\to  \dfrac1{2M_H}(-i)\epsilon_{\rho\lambda\mu_2\mu_4}v^\rho \Pi_{\mu_1\mu_5}v_{\mu_3}\langle H |\bar h\,s^\lambda iD^{\mu_1}\{iD^{\mu_2},[iD^{\mu_3},iD^{\mu_4}]\} iD^{\mu_5}h|H\rangle=\nonumber\\
+&&=12 \left(2 \tilde{a}_{12}^{(8)}- 2 \tilde{a}_{14}^{(8)}- 3 \tilde{a}_{15}^{(8)} - \tilde{b}_{13}^{(8)} + \tilde{b}_{14}^{(8)} + 3 \tilde{b}_{15}^{(8)} + \tilde{b}_{35}^{(8)} - \tilde{b}_{45}^{(8)}\right),\nonumber\\
+%
+&&ig \psi^\dagger  \epsilon^{ijk} \sigma^i \bm{D}^j [\bm{D}^l,\bm{E}^l] \bm{D}^k\psi\to\nonumber\\
+&&\to  \dfrac1{2M_H}i\epsilon_{\rho\lambda\mu_1\mu_5}v^\rho \Pi_{\mu_2\mu_4}v_{\mu_3}\langle H |\bar h\,s^\lambda iD^{\mu_1}[iD^{\mu_2},[iD^{\mu_3},iD^{\mu_4}]] iD^{\mu_5}h|H\rangle=\nonumber\\
+&&=12\left(2 \tilde{a}_{12}^{(8)}+ 2 \tilde{a}_{14}^{(8)}+ 3 \tilde{a}_{24}^{(8)}- \tilde{b}_{13}^{(8)}- \tilde{b}_{14}^{(8)}- 3 \tilde{b}_{34}^{(8)}- \tilde{b}_{35}^{(8)}- \tilde{b}_{45}^{(8)}\right),\nonumber\\
+&&\frac12g^2\psi^\dagger\{\bm{\sigma}\cdot\bm{B}_aT^a, [\bm{D}^i,\bm{E}^i]_bT^b\}\psi,\, g^2\psi^\dagger\bm{\sigma}\cdot\bm{B}_a [\bm{D}^i,\bm{E}^i]_a\psi\to\nonumber\\
+&&\to  -\dfrac1{2M_H}\dfrac{i}4\epsilon_{\rho\lambda\mu_1\mu_2}v^\rho \Pi_{\mu_3\mu_5}v_{\mu_4}\langle H |\bar h\,s^\lambda \{[iD^{\mu_1},iD^{\mu_2}],[iD^{\mu_3},[iD^{\mu_4},iD^{\mu_5}]]\}h|H\rangle=\nonumber\\
+&&=6\left(3 \tilde{a}_{12}^{(8)}-  \tilde{a}_{15}^{(8)}+ \tilde{a}_{24}^{(8)}-6 \tilde{b}_{13}^{(8)}- 2\tilde{b}_{14}^{(8)}+ 2\tilde{b}_{15}^{(8)}-2\tilde{b}_{34}^{(8)}+2\tilde{b}_{35}^{(8)}\right),\nonumber
+\end{eqnarray}
+\begin{eqnarray}
+&&\frac12g^2\psi^\dagger\{\bm{E}^i_aT^a,[\bm{D}^i,\bm{\sigma}\cdot\bm{B}]_bT^b\}\psi, \,g^2\psi^\dagger\bm{E}^i_a [\bm{D}^i,\bm{\sigma}\cdot\bm{B}]_a\psi\to\nonumber\\
+&&\to  -\dfrac1{2M_H}\dfrac{i}4\epsilon_{\rho\lambda\mu_4\mu_5}v^\rho \Pi_{\mu_2\mu_3}v_{\mu_1}\langle H |\bar h\,s^\lambda \{[iD^{\mu_1},iD^{\mu_2}],[iD^{\mu_3},[iD^{\mu_4},iD^{\mu_5}]]\}h|H\rangle=\nonumber\\
+&&=6\left(4 \tilde{b}_{13}^{(8)}-4\tilde{b}_{15}^{(8)}+\tilde{b}_{34}^{(8)}-2\tilde{b}_{35}+\tilde{b}_{45}\right),\nonumber\\
+&&\frac12g^2\psi^\dagger\{\bm{B}^i_aT^a,[\bm{D}^i,\bm{\sigma}\cdot\bm{E}]_bT^b\}\psi, \,g^2\psi^\dagger\bm{B}^i_a [\bm{D}^i,\bm{\sigma}\cdot\bm{E}]_a\psi\to\nonumber\\
+&&\to  \dfrac1{2M_H}\dfrac{i}4\epsilon_{\rho\mu_1\mu_2\mu_3}v^\rho \Pi_{\lambda\mu_5}v_{\mu_4}\langle H |\bar h\,s^\lambda \{[iD^{\mu_1},iD^{\mu_2}],[iD^{\mu_3},[iD^{\mu_4},iD^{\mu_5}]]\}h|H\rangle=\nonumber\\
+&&=-6\left(\tilde{a}_{12}^{(8)}+ \tilde{a}_{14}^{(8)}- \tilde{a}_{24}^{(8)}-2 \tilde{b}_{13}^{(8)}+\tilde{b}_{14}^{(8)}-\tilde{b}_{15}^{(8)}+\tilde{b}_{34}^{(8)}-\tilde{b}_{35}^{(8)}\right),\nonumber\\
+%
+&&\frac12g^2\psi^\dagger\{\bm{E}^i_aT^a,[\bm{\sigma}\cdot\bm{D}, \bm{B}^i]_bT^b\}\psi,\, g^2\psi^\dagger\bm{E}^i_a[\bm{\sigma}\cdot\bm{D}, \bm{B}^i]_a\psi\to\nonumber\\
+&&\to  \dfrac1{2M_H}\dfrac{i}4\epsilon_{\rho\mu_2\mu_4\mu_5}v^\rho \Pi_{\lambda\mu_3}v_{\mu_1}\langle H |\bar h\,s^\lambda \{[iD^{\mu_1},iD^{\mu_2}],[iD^{\mu_3},[iD^{\mu_4},iD^{\mu_5}]]\}h|H\rangle=\nonumber\\
+&&=-6\left(\tilde{b}_{13}^{(8)}-\tilde{b}_{15}^{(8)}-\tilde{b}_{34}^{(8)}+2\tilde{b}_{35}^{(8)}-\tilde{b}_{45}^{(8)}\right),\nonumber\\
+%
+&&\frac12g^2\psi^\dagger\{\bm{B}^i_aT^a,[\bm{\sigma}\cdot\bm{D}, \bm{E}^i]_bT^b\}\psi,\,g^2\psi^\dagger\bm{B}^i_a[\bm{\sigma}\cdot\bm{D}, \bm{E}^i]_a\psi\to\nonumber\\
+&&\to  \dfrac1{2M_H}\dfrac{i}4\epsilon_{\rho\mu_1\mu_2\mu_5}v^\rho \Pi_{\lambda\mu_3}v_{\mu_4}\langle H |\bar h\,s^\lambda \{[iD^{\mu_1},iD^{\mu_2}],[iD^{\mu_3},[iD^{\mu_4},iD^{\mu_5}]]\}h|H\rangle=\nonumber\\
+&&=-6\left(\tilde{a}_{12}^{(8)}-\tilde{a}_{14}^{(8)}+ \tilde{a}_{15}^{(8)}-2\tilde{b}_{13}^{(8)}+\tilde{b}_{14}^{(8)}-\tilde{b}_{15}^{(8)}+\tilde{b}_{34}^{(8)}-\tilde{b}_{35}^{(8)}\right),\nonumber\\
+%
+&&\frac12g^2\psi^\dagger\epsilon^{ijk}\bm{\sigma}^i\bm{E}^j_a\, [{D_t},\bm{E}^k]_b\,\{T^a,T^b\}\psi,\,g^2\psi^\dagger\epsilon^{ijk}\bm{\sigma}^i\bm{E}^j_a\, [{D_t},\bm{E}^k]_a\,\psi \to\nonumber\\
+&&\to  -\dfrac1{2M_H}\dfrac{i}2\epsilon_{\rho\lambda\mu_2\mu_5}v^\rho v_{\mu_1}v_{\mu_3}v_{\mu_4}\langle H |\bar h\,s^\lambda \{[iD^{\mu_1},iD^{\mu_2}],[iD^{\mu_3},[iD^{\mu_4},iD^{\mu_5}]]\}h|H\rangle=\nonumber\\
+&&=6\tilde{c}^{(8)}.
+\end{eqnarray}
+
+
+The NRQCD contains extra operators that are not presented in NRQED. We list these extra operators in section \ref{subsec:NRQCD_only_operators}
+\section{Applications}\label{applications}
+\subsection{Tensor decomposition of Dimension nine spin independent HQET matrix element }
+We extended the general tensor decomposition of HQET matrix elements discussed in section \ref{sec:SI_mat_decomp} to dimension nine. At dimension nine the matrix elements contain six covariant derivatives. The matrix element is decomposed into tensors that contains zero $v$'s, two $v$'s or four $v$'s. Thus we obtain 24 tensors for the spin independent matrix element, which are given by
+
+\begin{align}\label{eqn:chap4_dim9_SI_Decomp}
+&\frac{1}{2 M_{H}}\left\langle H\left|\bar{h} i D^{\mu_{1}} i D^{\mu_{2}} i D^{\mu_{3}} i D^{\mu_{4}} i D^{\mu_{5}} i D^{\mu_{6}} h\right| H\right\rangle= a_{12,34}^{(9)} \Pi^{\mu_{1} \mu_{2}} \Pi^{\mu_{3} \mu_{4}} \Pi^{\mu_{5} \mu_{6}}+\nonumber\\
+&+a_{12,35}^{(9)}\left(\Pi^{\mu_{1} \mu_{2}} \Pi^{\mu_{3} \mu_{5}}\Pi^{\mu_{4} \mu_{6}}+\Pi^{\mu_{1} \mu_{3}} \Pi^{\mu_{2} \mu_{4}} \Pi^{\mu_{5} \mu_{6}}\right)+a_{12,36}^{(9)}\left(\Pi^{\mu_{1} \mu_{2}} \Pi^{\mu_{3} \mu_{6}}\Pi^{\mu_{4} \mu_{5}}+\Pi^{\mu_{1} \mu_{4}} \Pi^{\mu_{2} \mu_{3}} \Pi^{\mu_{5} \mu_{6}}\right)+\nonumber\\
+&+a_{13,25}^{(9)} \Pi^{\mu_{1} \mu_{3}} \Pi^{\mu_{2} \mu_{5}} \Pi^{\mu_{4} \mu_{6}}+a_{13,26}^{(9)}\left(\Pi^{\mu_{1} \mu_{3}} \Pi^{\mu_{2} \mu_{6}} \Pi^{\mu_{4} \mu_{5}}+\Pi^{\mu_{1} \mu_{5}} \Pi^{\mu_{2} \mu_{3}} \Pi^{\mu_{4} \mu_{6}}\right)+\nonumber\\
+&+a_{14,25}^{(9)} \Pi^{\mu_{1} \mu_{4}} \Pi^{\mu_{2} \mu_{5}}\Pi^{\mu_{3} \mu_{6}} +a_{14,26}^{(9)}\left(\Pi^{\mu_{1} \mu_{4}} \Pi^{\mu_{2} \mu_{6}} \Pi^{\mu_{3} \mu_{5}}+\Pi^{\mu_{1} \mu_{5}} \Pi^{\mu_{2} \mu_{4}} \Pi^{\mu_{3} \mu_{6}}\right)+\nonumber\\
+&+a_{15,26}^{(9)} \Pi^{\mu_{1} \mu_{5}} \Pi^{\mu_{2} \mu_{6}} \Pi^{\mu_{3} \mu_{4}}+a_{16,23}^{(9)} \Pi^{\mu_{1} \mu_{6}} \Pi^{\mu_{2} \mu_{3}} \Pi^{\mu_{4} \mu_{5}}+a_{16,24}^{(9)} \Pi^{\mu_{1} \mu_{6}} \Pi^{\mu_{2} \mu_{4}} \Pi^{\mu_{3} \mu_{5}}+\nonumber\\
+&+a_{16,25}^{(9)} \Pi^{\mu_1 \mu_6} \Pi^{\mu_{2} \mu_{5}}\Pi^{\mu_{3} \mu_{4}}  +b_{12,36}^{(9)}\left(\Pi^{\mu_{1} \mu_{2}} \Pi^{\mu_{3} \mu_{6}} v^{\mu_{4}} v^{\mu_{5}}+\Pi^{\mu_{1} \mu_{4}} \Pi^{\mu_{5} \mu_{6}} v^{\mu_{2}} v^{\mu_{3}}\right)+\nonumber\\
+&+b_{12,46}^{(9)}\left(\Pi^{\mu_{1} \mu_{2}} \Pi^{\mu_{4} \mu_{6}} v^{\mu_{3}} v^{\mu_{5}}+\Pi^{\mu_{1} \mu_{3}} \Pi^{\mu_{5} \mu_{6}} v^{\mu_{2}} v^{\mu_{4}}\right)+b_{12,56}^{(9)} \Pi^{\mu_{1} \mu_{2}} \Pi^{\mu_{5} \mu_{6}} v^{\mu_{3}} v^{\mu_{4}}+\nonumber\\
+&+b_{13,26}^{(9)}\left(\Pi^{\mu_{1} \mu_{3}} \Pi^{\mu_{2} \mu_{6}} v^{\mu_{4}} v^{\mu_{5}}+\Pi^{\mu_{1} \mu_{5}} \Pi^{\mu_{4} \mu_{6}} v^{\mu_{2}} v^{\mu_{3}}\right)+\nonumber\\
+&+b_{13,46}^{(9)} \Pi^{\mu_{1} \mu_{3}} \Pi^{\mu_{4} \mu_{6}} v^{\mu_{2}} v^{\mu_{5}}+b_{14,26}^{(9)}\left(\Pi^{\mu_{1} \mu_{4}} \Pi^{\mu_{2} \mu_{6}} v^{\mu_{3}} v^{\mu_{5}} +\Pi^{\mu_{1} \mu_{5}}\Pi^{\mu_{3} \mu_{6}}v^{\mu_{2}} v^{\mu_{4}}\right)+\nonumber\\
+&+b_{14,36}^{(9)} \Pi^{\mu_{1} \mu_{4}} \Pi^{\mu_{3} \mu_{6}} v^{\mu_{2}} v^{\mu_{5}}+b_{15,26}^{(9)} \Pi^{\mu_{1} \mu_{5}} \Pi^{\mu_{2} \mu_{6}} v^{\mu_{3}} v^{\mu_{4}}+\nonumber\\
+&+b_{16, 23}^{(9)}\left(\Pi^{\mu_{1} \mu_{6}} \Pi^{\mu_{2} \mu_{3}} v^{\mu_{4}} v^{\mu_{5}}+\Pi^{\mu_{1} \mu_{6}} \Pi^{\mu_{4} \mu_{5}} v^{\mu_{2}} v^{\mu_{3}}\right)+\nonumber\\
+&+b_{16,24}^{(9)}\left(\Pi^{\mu_{1} \mu_{6}} \Pi^{\mu_{2} \mu_{4}} v^{\mu_{3}} v^{\mu_{5}}+\Pi^{\mu_{1} \mu_{6}} \Pi^{\mu_{3} \mu_{5}} v^{\mu_{2}} v^{\mu_{4}}\right)+b_{16,25}^{(9)} \Pi^{\mu_{1} \mu_{6}} \Pi^{\mu_{2} \mu_{5}} v^{\mu_{3}} v^{\mu_{4}}+\nonumber\\
+&+b_{16,34}^{(9)} \Pi^{\mu_{1} \mu_{6}} \Pi^{\mu_{3} \mu_{4}} v^{\mu_{2}} v^{\mu_{5}}+c^{(9)} \Pi^{\mu_{1} \mu_{6}} v^{\mu_{2}} v^{\mu_{3}} v^{\mu_{4}} v^{\mu_{5}}
+\end{align}
+The multiple color structures arise from the structures: $\left[i D^{\mu_{i}}, i D^{\mu_{j}}\right],\left[i D^{\mu_{i}},\left[i D^{\mu_{j}}, i D^{\mu_{k}}\right]\right]$ and $\left.\left[i D^{\mu_{i}},\left[i D^{\mu_{j}},\left[i D^{\mu_{k}}, i D^{\mu_{l}}\right]\right]\right]\right]$. However, we did not consider the possible operators arise from these structures in this discussion. 
+
+\subsection{NRQCD Lagrangian at order $1/M^4$}\label{subsec:NRQCD_only_operators}
+As shown in the sections \ref{subsec:dim_8_HQET_SI} and \ref{subsubsec:Dim8_SD_NRQED_op}, there are three spin independent and three spin dependent operators that cannot be obtained from the generalization of NRQED operators to NRQCD. The NRQCD operators contains commutators of chromoelectric and chromomagnetic fields. These NRQCD operators do not arise in the NRQED. As a result, we list the set of new spin independent operators that are obtained from the commutator relationships of the chromoelectric and chromomagnetic fields as follows:
+\vspace{-0.7cm}
+\begin{align}
+&g^{2} \psi^{\dagger}\left[\bm{E}^{i},\left[i D_{t}, \bm{E}^{i}\right]\right]_{a} T^{a} \psi \rightarrow\nonumber \\
+&\rightarrow \frac{1}{2 M_{H}}\left\langle H\left|\bar{h}\left[\left[i D^{\mu_{1}}, i D^{\mu_{2}}\right],\left[i D^{\mu_{3}},\left[i D^{\mu_{4}}, i D^{\mu_{5}}\right]\right]\right) h\right| H\right\rangle v_{\mu_{1}} v_{\mu_{3}} v_{\mu_{4}} \Pi_{\mu_{2} \mu_{5}}=-6 c^{(8)}\nonumber \\
+&i g^{2} \psi^{\dagger}\left[\bm{B}^{i},(\bm{D} \times \bm{E}+\bm{E} \times \bm{D})^{i}\right]_{a} T^{a} \psi \rightarrow\nonumber\\
+&\rightarrow \frac{1}{2 M_{H}}\left\langle H\left|\bar{h}\left[\left[i D^{\mu_{1}}, i D^{\mu_{2}}\right],\left[i D^{\mu_{3}},\left[i D^{\mu_{4}}, i D^{\mu_{5}}\right]\right]\right) h\right| H\right\rangle v_{\mu_{4}} \Pi_{\mu_{1} \mu_{3}} \Pi_{\mu_{2} \mu_{5}}=12\left(b_{14}^{(8)}-b_{15}^{(8)}\right)\nonumber \\
+&i g^{2} \psi^{\dagger}\left[\bm{E}^{i},(\bm{D} \times \bm{B}+\bm{B} \times \bm{D})^{i}\right]_{a} T^{a} \psi \rightarrow\nonumber \\
+&\rightarrow-\frac{1}{2 M_{H}}\left\langle H\left|\bar{h}\left[\left[i D^{\mu_{1}}, i D^{\mu_{2}}\right],\left[i D^{\mu_{3}},\left[i D^{\mu_{4}}, i D^{\mu_{5}}\right]\right] h|H\rangle v_{\mu_{1}} \Pi_{\mu_{3} \mu_{4}} \Pi_{\mu_{2} \mu_{5}}=\right.\right.\right.\nonumber \\
+&=12\left(a_{12}^{(8)}-2 a_{13}^{(8)}+a_{15}^{(8)}\right)
+\end{align}
+These operators are linearly independent to the operators found in equation (\ref{eqn:chap4_NRQED_dim8__SI_op}).\par 
+In section \ref{subsubsec:Dim8_SD_NRQED_op} we considered the set of dimension eight NRQCD spin dependent operators that are obtained by generalizing the NRQED operators. They are: $O_{X 7} \equiv \frac{1}{2} g^{2} \psi^{\dagger}\lbrace\bm{\sigma} \cdot \bm{B},[\bm{D}^{i}, \bm{E}^{i}]\rbrace \psi$, $ O_{X 8} \equiv \frac{1}{2} g^{2} \psi^{\dagger}\left\{\bm{E}^{i},[\bm{D}^{i}, \bm{\sigma} \cdot \bm{B}\right]\} \psi, O_{X 9} \equiv \frac{1}{2} g^{2} \psi^{\dagger}\left\{B^{i},\left[D^{i}, \bm{\sigma}\cdot \bm{E}\right]\right\} \psi$, $O_{X 10} \equiv \frac{1}{2} g^{2} \psi^{\dagger}\lbrace\bm{E}^{i},[\bm{\sigma} \cdot \bm{D}, \bm{B}^{i}]\rbrace \psi$, and $Q_{\mathrm{Y} 11}=\frac{1}{2} a^{2} \psi^{\dagger}\left\{\bm{B}^{i},\left[\bm{\sigma} \cdot \bm{D}, \bm{E}^{i}\right]\right\} \psi$, where the notion follows from equation (\ref{eqn:chap4_NRQED_Lag}). The corresponding NRQCD operators can be obtained by replacing the commutators by anti-commutators in these operators and vice versa. Out of $O_{X 7}, O_{X 9}, O_{X 10}$ or $O_{X 7}, O_{X 9}, O_{X 11}$ or $O_{X 8}, O_{X 9}, O_{X 11}$ we can choose any set of operators to modify. In the following we modified the operators $O_{X 7}, O_{X 9}, O_{X 10}$ to obtain their NRQCD counterpart. We have:
+\vspace{-1cm}
+\begin{eqnarray}\label{NRQCD8SD}
+&&g^2 \psi^\dagger [\bm{\sigma}\cdot\bm{B}, \{\bm{D}^i,\bm{E}^i\}]_aT^a\psi\to\nonumber\\
+&&\to  -\dfrac1{2M_H}\dfrac{i}2\epsilon_{\rho\lambda\mu_1\mu_2}v^\rho \Pi_{\mu_3\mu_5}v_{\mu_4}\langle H |\bar h\,s^\lambda [[iD^{\mu_1},iD^{\mu_2}],\{iD^{\mu_3},[iD^{\mu_4},iD^{\mu_5}]\}]h|H\rangle=\nonumber\\
+&&=-12\left(3 \tilde{a}_{12}^{(8)}- \tilde{a}_{15}+ \tilde{a}_{24}\right),\nonumber\\
+&&g^2  \psi^\dagger [\bm{B}^i,\{\bm{D}^i,\bm{\sigma}\cdot\bm{E}\}]_aT^a\psi\to\nonumber\\
+&&\to  \dfrac1{2M_H}\dfrac{i}2\epsilon_{\rho\mu_1\mu_2\mu_3}v^\rho \Pi_{\lambda\mu_5}v_{\mu_4}\langle H |\bar h\,s^\lambda [[iD^{\mu_1},iD^{\mu_2}],\{iD^{\mu_3},[iD^{\mu_4},iD^{\mu_5}]\}]h|H\rangle=\nonumber\\
+&&=12\left(\tilde{a}_{12}^{(8)}+ \tilde{a}_{14}^{(8)}- \tilde{a}_{24}-\tilde{b}_{14}+\tilde{b}_{15}+\tilde{b}_{34}-\tilde{b}_{35}\right),\nonumber
+\end{eqnarray}
+\begin{eqnarray}
+&&g^2  \psi^\dagger [\bm{E}^i, \{\bm{\sigma}\cdot\bm{D}, \bm{B}^i\}]_aT^a\psi\to\nonumber\\
+&&\to  \dfrac1{2M_H}\dfrac{i}2\epsilon_{\rho\mu_2\mu_4\mu_5}v^\rho \Pi_{\lambda\mu_3}v_{\mu_1}\langle H |\bar h\,s^\lambda [iD^{\mu_1},iD^{\mu_2}],\{iD^{\mu_3},[iD^{\mu_4},iD^{\mu_5}]\}]h|H\rangle=\nonumber\\
+&&=-12\left(\tilde{b}_{13}+\tilde{b}_{15}-\tilde{b}_{34}+\tilde{b}_{45}\right).
+\end{eqnarray}
+
+All these operators are linearly independent to the operators found in equation (\ref{eqn:chap4_dim8_SD_NRQED_op}). 
+\vspace{-0.3cm}
+\subsubsection{Constructing the NRQCD Lagrangian at order $1/M^4$}
+\vspace{-0.3cm}
+Since we found the exclusive set of NRQCD operators, we list the dimension 8 Lagrangian.
+\begin{align}\label{eqn:Dim_8_Lagrangian}
+&{\mathcal{L}_{\mathrm{NRQCD}}^{\mathrm{dim}=8}=\psi^{\dagger}\left\{c_{X 1} g \frac{\left[\bm{D}^{2},\left\{\bm{D}^{i}, \bm{E}^{i}\right\}\right]}{M^{4}}+c_{X 2} g \frac{\left\{\bm{D}^{2},\left[\bm{D}^{i}, \bm{E}^{i}\right]\right\}}{M^{4}}+c_{X 3} g \frac{\left[\bm{D}^{i},\left[\bm{D}^{i},\left[\bm{D}^{j}, \bm{E}^{j}\right]\right]\right]}{M^{4}}\right.}\nonumber \\
+&+i c_{X 4 a} g^{2} \frac{\left\{\bm{D}^{i}, \epsilon^{i j k} \bm{E}_{a}^{j} \bm{B}_{b}^{k}\left\{T^{a}, T^{b}\right\}\right\}}{2 M^{4}}+i c_{X 4 b} g^{2} \frac{\left\{\bm{D}^{i}, \epsilon^{i j k} \bm{E}_{a}^{j} \bm{B}_{b}^{k} \delta^{a b}\right\}}{M^{4}}\nonumber\\
+&+i c_{X 5} g \frac{\bm{D}^{i} \bm{\sigma} \cdot(\bm{D} \times \bm{E}-\bm{E} \times \bm{D}) \bm{D}^{i}}{M^{4}}+i c_{X 6} g \frac{\epsilon^{i j k} \bm{\sigma}^{i} \bm{D}^{j}\left[\bm{D}^{l}, \bm{E}^{l}\right] \bm{D}^{k}}{M^{4}}\nonumber\\
+&+c_{X 7 a} g^{2} \frac{\left\{\bm{\sigma} \cdot \bm{B}_{a} T^{a},\left[\bm{D}^{i}, \bm{E}^{i}\right]_{b} T^{b}\right\}}{2 M^{4}}+c_{X 7 b} g^{2} \frac{\bm{\sigma} \cdot \bm{B}_{a}\left[\bm{D}^{i}, \bm{E}^{i}\right]_{a}}{M^{4}}\nonumber\\
+&+c_{X 8 a} g^{2} \frac{\left\{\bm{E}_{a}^{i} T^{a},\left[\bm{D}^{i}, \bm{\sigma} \cdot \bm{B}\right]_{b} T^{b}\right\}}{2 M^{4}}+c_{X 8 b} g^{2} \frac{\bm{E}_{a}^{i}\left[\bm{D}^{i}, \bm{\sigma} \cdot \bm{B}\right]_{a}}{M^{4}}\nonumber\\
+&+c_{X 11 a} g^{2} \frac{\left\{\bm{B}_{a}^{i} T^{a},\left[\bm{\sigma} \cdot \bm{D}, \bm{E}^{i}\right]_{b} T^{b}\right\}}{2 M^{4}}+c_{X 11 b} g^{2} \frac{B_{a}^{i}\left[\bm{\sigma} \cdot \bm{D}, \bm{E}^{i}\right]_{a}}{M^{4}}\nonumber\\
+&+\tilde{c}_{X 12 a} g^{2} \frac{\epsilon^{i j k} \bm{\sigma}^{i} \bm{E}_{a}^{j}\left[D_{t}, \bm{E}^{k}\right]_{b}\left\{T^{a}, T^{b}\right\}}{2 M^{4}}+\tilde{c}_{X 12 b} g^{2} \frac{e^{i j k} \bm{\sigma}^{i} \bm{E}_{a}^{j}\left[D_{t}, \bm{E}^{k}\right]_{a}}{M^{4}}\nonumber\\
+&+i c_{X 13} g^{2} \frac{\left[\bm{E}^{i},\left[D_{t}, \bm{E}^{i}\right]\right]}{M^{4}}+i c_{X 14} g^{2} \frac{\left[\bm{B}^{i},(\bm{D} \times \bm{E}+\bm{E} \times \bm{D})^{i}\right]}{M^{4}}+i c_{X 15} g^{2} \frac{\left[\bm{E}^{i},(\bm{D} \times \bm{B}+\bm{B} \times \bm{D})^{i}\right]}{M^{4}}\nonumber\\
+&\left.+c_{X 16} g^{2} \frac{\left[\bm{\sigma} \cdot \bm{B},\left\{\bm{D}^{i}, \bm{E}^{i}\right\}\right]}{M^{4}}+c_{X 17} g^{2} \frac{\left[\bm{B}^{i},\left\{\bm{D}^{i}, \bm{\sigma} \cdot \bm{E}\right\}\right]}{M^{4}}+c_{X 18} g^{2} \frac{\left[\bm{E}^{i},\left\{\bm{\sigma} \cdot \bm{D}, \bm{B}^{i}\right\}\right]}{M^{4}}\right\} \psi
+\end{align}
